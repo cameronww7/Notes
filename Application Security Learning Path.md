@@ -23,6 +23,8 @@ Reading or listening is not enough. You need to actively engage with what you're
 
 Learning security is about building mental models, not memorizing facts. The goal is to develop intuition for how systems break and how to build them securely.
 
+- Active Learning: 5 Reasons You're Doing Active Learning WRONG: https://www.youtube.com/watch?v=0A5Ji-QdFvg
+
 ## Foundational Knowledge
 
 ### Start Here, Core AppSec Concepts
@@ -54,23 +56,28 @@ Learning security is about building mental models, not memorizing facts. The goa
 - Mauve Hed & Francesco Cipollone - Navigating Challenges of Risk-Based Vulnerability Management in a Cloud World: https://www.youtube.com/watch?v=bDtJA551vpI
 - Jenn Gile - How to sell your soul, err, your security program: https://www.youtube.com/watch?v=SM36aCbxj6c&t
 - Rafal Los - Why Your Security Metrics Suck, And How to Fix This: https://www.youtube.com/watch?v=aLibY2Azneo
-- Active Learning: 5 Reasons You're Doing Active Learning WRONG: https://www.youtube.com/watch?v=0A5Ji-QdFvg
+- Chris Hughes - Securing AI Where it Acts: Why Agents Now Define AI Risk | AI Summit Q1 2026 - https://www.youtube.com/watch?v=A6eIooEm7Cs
 
 ### Learn the Standards, OWASP Frameworks
 
 These aren't just reading material. They're the standards you'll reference daily in this field.
 
-- OWASP Top 10 2025: https://owasp.org/Top10/2025/
+- OWASP Top 10 2025 (Most Critical Web Application Security Risks): https://owasp.org/Top10/2025/
 - OWASP Top 10 for LLMs 2025: https://owasp.org/www-project-top-10-for-large-language-model-applications/assets/PDF/OWASP-Top-10-for-LLMs-v2025.pdf
-- OWASP ASVS (Application Security Verification Standard): https://owasp.org/www-project-application-security-verification-standard/
 - OWASP API Security Top 10: https://owasp.org/API-Security/
+- OWASP Top 10 CI/CD Security Risks: https://owasp.org/www-project-top-10-ci-cd-security-risks/
+- OWASP ASVS (Application Security Verification Standard): https://owasp.org/www-project-application-security-verification-standard/
 - OWASP SPVS (Secure Pipeline Verification Standard): https://owasp.org/www-project-spvs/
 
 ### Understand the Cloud
 
-- Take AWS Certified Cloud Practitioner (CCP) or general cloud understanding courses. Free course: https://youtu.be/NhDYbskXRgc?si=pHmsypJT3WfrzCxt
-- Follow up with cloud security-specific training
-- Modern AppSec lives in the cloud. You need to understand how cloud environments work.
+- Take AWS Certified Cloud Practitioner (CCP) or general cloud understanding courses. 
+    - Free course: https://youtu.be/NhDYbskXRgc?si=pHmsypJT3WfrzCxt
+- Or for Azure (Microsoft Certified: Azure Fundamentals (Exam AZ-900))
+    - Free course: https://www.youtube.com/watch?v=5abffC-K40c
+- Follow up with cloud security-specific training (Youtube, Blogs, just search Cloud Security)
+- Modern AppSec lives in the cloud. You need to understand how cloud environments work. 
+
 
 ## Technical Hands-On Skills
 
@@ -94,12 +101,18 @@ AI security is exploding right now. Get ahead of it:
 This is your hands-on laboratory. Set up your own secure pipeline using open source tools. Use GitHub runners or Jenkins locally. Configure it to run against vulnerable code and scan using free open source scanners:
 
 - **SAST**: Semgrep (free), Snyk (free tier), OpenGrep (free)
-- **DAST**: OWASP ZAP (free)
+- **DAST**: ZAP (free)
 - **SCA (Software Composition Analysis)**: OWASP Dependency-Check, Snyk (has free tier)
 - **Container Scanning**: Trivy (free)
 - **SBOM Generation**: Syft (https://github.com/anchore/syft)
 
-#### Infrastructure as Code & Container Security
+#### Example Pipeline Build Guides
+
+- Building a DevSecOps Pipeline with Open Source Tools: https://medium.com/cloud-native-daily/building-a-devsecops-pipeline-with-open-source-tools-ad4fd0e13515
+- FPL Insights Dashboard - Real-World DevSecOps Lab Project: https://medium.com/@bll_78288/fpl-insights-dashboard-a-real-world-devops-devsecops-lab-project-85e7065ea7c9
+- Complete DevSecOps Pipeline Tutorial (Video): https://m.youtube.com/watch?v=mZoOnWjv_QM
+
+### Infrastructure as Code & Container Security
 
 - Infrastructure as Code in a DevSecOps World: https://snyk.io/learn/infrastructure-as-code-iac/
 - Infrastructure as Code Security - OWASP Cheat Sheet Series: https://cheatsheetseries.owasp.org/cheatsheets/Infrastructure_as_Code_Security_Cheat_Sheet.html
@@ -109,12 +122,6 @@ This is your hands-on laboratory. Set up your own secure pipeline using open sou
 The crucial next step is understanding and triaging those results. Learn how to interpret findings, prioritize based on risk and exploitability, and create actionable remediation plans. Being able to run a scanner is table stakes. Knowing how to triage, prioritize, and communicate findings to developers is what gets you hired.
 
 Alternatively, build a similar home lab environment. Document what you build. This becomes portfolio material.
-
-#### Example Pipeline Build Guides
-
-- Building a DevSecOps Pipeline with Open Source Tools: https://medium.com/cloud-native-daily/building-a-devsecops-pipeline-with-open-source-tools-ad4fd0e13515
-- FPL Insights Dashboard - Real-World DevSecOps Lab Project: https://medium.com/@bll_78288/fpl-insights-dashboard-a-real-world-devops-devsecops-lab-project-85e7065ea7c9
-- Complete DevSecOps Pipeline Tutorial (Video): https://m.youtube.com/watch?v=mZoOnWjv_QM
 
 ### Learn the Attacker Mindset
 
