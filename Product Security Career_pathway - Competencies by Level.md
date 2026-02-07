@@ -30,3 +30,7 @@ Beyond the core competencies listed above, Senior AppSec/Product Security profes
 - **Vendor Management**: Evaluates and manages relationships with security vendors and external partners
 - **Compliance Expertise**: Navigates regulatory requirements (SOC2, ISO, GDPR, etc.) and translates them into actionable requirements
 - **Adaptability**: Pivots strategies based on changing threat landscape, business priorities, or organizational shifts
+
+
+---
+
