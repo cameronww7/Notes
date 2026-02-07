@@ -8,6 +8,7 @@ Think of AI as an editor and writing helper, not someone who writes for you. You
 ​
 ## The Dead Internet Theory: Why This Matters
 
+---
 
 You might have seen weird stuff on social media - like those bizarre "shrimp Jesus" images on Facebook that somehow get 20,000 likes. Or posts that feel oddly perfect but totally empty. Welcome to what some people call the "dead internet."
 ​
