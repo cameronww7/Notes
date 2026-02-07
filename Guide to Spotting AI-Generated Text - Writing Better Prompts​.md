@@ -8,17 +8,15 @@ Think of AI as an editor and writing helper, not someone who writes for you. You
 ​
 ## The Dead Internet Theory: Why This Matters
 
----
-
-You might have seen weird stuff on social media - like those bizarre "shrimp Jesus" images on Facebook that somehow get 20,000 likes. Or posts that feel oddly perfect but totally empty. Welcome to what some people call the "dead internet."
+- You might have seen weird stuff on social media - like those bizarre "shrimp Jesus" images on Facebook that somehow get 20,000 likes. Or posts that feel oddly perfect but totally empty. Welcome to what some people call the "dead internet."
 ​
-The dead internet theory says that more and more of what you see online isn't made by real people anymore. AI bots create posts, generate images, and even leave comments. Then other AI bots engage with that content - liking, sharing, commenting. It's bots talking to bots, and real humans just get caught in the middle.
+- The dead internet theory says that more and more of what you see online isn't made by real people anymore. AI bots create posts, generate images, and even leave comments. Then other AI bots engage with that content - liking, sharing, commenting. It's bots talking to bots, and real humans just get caught in the middle.
 ​
-Why does this happen? Sometimes it's just to farm engagement and make money from ads. But here's the scary part: these bot accounts build up huge follower counts that make them look legit. Once they have credibility, they can be sold to whoever wants to spread propaganda, push political agendas, or flood social media with fake news. Studies found that in 2022, almost half of all internet traffic was bots, not humans.
+- Why does this happen? Sometimes it's just to farm engagement and make money from ads. But here's the scary part: these bot accounts build up huge follower counts that make them look legit. Once they have credibility, they can be sold to whoever wants to spread propaganda, push political agendas, or flood social media with fake news. Studies found that in 2022, almost half of all internet traffic was bots, not humans.
 ​
-This is why knowing how to spot AI-generated content matters. Social media is now the main news source for almost half of young adults. When bots can create convincing fake content and use fake engagement to make it look popular, they can manipulate what millions of people believe about politics, wars, and major events. It's already happened with pro-Russian disinformation campaigns that used over 10,000 bot accounts to spread fake celebrity quotes supporting the war in Ukraine.
+- This is why knowing how to spot AI-generated content matters. Social media is now the main news source for almost half of young adults. When bots can create convincing fake content and use fake engagement to make it look popular, they can manipulate what millions of people believe about politics, wars, and major events. It's already happened with pro-Russian disinformation campaigns that used over 10,000 bot accounts to spread fake celebrity quotes supporting the war in Ukraine.
 ​
-The internet isn't really "dead" - real people are still here. But understanding these patterns helps you stay critical and skeptical. That trending post, those likes, that "overall sentiment" you see - it might not be real people at all. It might be designed to slowly change how you see the world.
+- The internet isn't really "dead" - real people are still here. But understanding these patterns helps you stay critical and skeptical. That trending post, those likes, that "overall sentiment" you see - it might not be real people at all. It might be designed to slowly change how you see the world.
 ​
 ---
 ​
