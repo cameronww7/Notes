@@ -7,7 +7,8 @@ When you let AI create everything from scratch, you lose what makes your content
 Think of AI as an editor and writing helper, not someone who writes for you. You bring the ideas, personality, and substance. AI helps you say it more clearly.
 ​
 ## The Dead Internet Theory: Why This Matters
-​
+
+
 You might have seen weird stuff on social media - like those bizarre "shrimp Jesus" images on Facebook that somehow get 20,000 likes. Or posts that feel oddly perfect but totally empty. Welcome to what some people call the "dead internet."
 ​
 The dead internet theory says that more and more of what you see online isn't made by real people anymore. AI bots create posts, generate images, and even leave comments. Then other AI bots engage with that content - liking, sharing, commenting. It's bots talking to bots, and real humans just get caught in the middle.
