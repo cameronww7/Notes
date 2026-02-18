@@ -143,11 +143,9 @@ These patterns "can only be spotted using detailed language analysis" - humans d
 **No single sign proves it's AI.** Look for multiple patterns together instead of relying on just one. As AI gets better, many of these patterns might fade or change.
 ​
 ---
-​
 ## How to Make AI Content Sound More Human
 ​
 ### Quick Anti-AI Prompt Template
-​
 ```
 Write about [TOPIC] in [grade level/reading level] language with a [casual/professional/conversational] tone like [you're texting a friend/writing an email/giving advice].
 ​
@@ -179,7 +177,6 @@ Keep it clear, natural, and real. Sound like a human, not a helpful robot.
 ```
 ​
 ### Your Example Made Better
-​
 ```
 Write [TOPIC] in simple grade 9 level language, casual tone like you're texting a friend or writing a personal blog post. 
 ​
