@@ -20,8 +20,7 @@ Think of AI as an editor and writing helper, not someone who writes for you. You
 ​
 ---
 ​
-## Sentence Structure Patterns
-​
+## Sentence Structure Patterns​
 - Humans mix up sentence lengths a lot, while AI keeps sentences more similar
 - Human writing puts related words closer together in sentences
 - Human writing uses shorter word groups in sentences
@@ -32,7 +31,6 @@ Think of AI as an editor and writing helper, not someone who writes for you. You
 - All paragraphs are similar lengths (humans change it up way more)
 ​
 ## Word Type Patterns
-​
 - AI uses more nouns, "the/a/an" words, and connection words like "of/in/on"
 - AI uses fewer describing words (adjectives and adverbs)
 - AI uses more numbers, symbols, and helper words, making it sound more factual
@@ -40,7 +38,6 @@ Think of AI as an editor and writing helper, not someone who writes for you. You
 - Big differences in how AI uses nouns, verbs, and sentence structure
 ​
 ## Word Choice & Vocabulary Patterns
-​
 - AI shows less word variety and repeats the same words more often
 - AI has a smaller vocabulary overall
 - AI repeats specific word combinations more
@@ -48,32 +45,27 @@ Think of AI as an editor and writing helper, not someone who writes for you. You
 - **Overused AI words**: delve, utilize, moreover, furthermore, leverage, robust, comprehensive, multifaceted
 ​
 ### Words Different AI Models Love to Use
-​
 - **ChatGPT**: "such as," "certainly," "overall," "sure," "utilize," "various," "typically"
 - **Claude**: "here," "according to," "based on," "the text," "while," "appears to," "both," "when"
 - **Grok**: "which," "where," "not," "here," "here is," "remember"
 - **Gemini**: "might," "but also," "not only," "helps in"
 ​
-### AI Phrases That Sound Like Letters or Chat
-​
+### AI Phrases That Sound Like Letters or Chat​
 - Letter openings: "I hope this message finds you well," "Thank you for your time and consideration"
 - Chatbot helper phrases: "I hope this helps!" "Of course!" "Let me know if you need anything else"
 - These show up when people copy-paste AI responses without editing them out
 ​
-### Overblown Importance Language
-​
+### Overblown Importance Language​
 - "plays a vital role," "serves as a testament," "leaves a lasting impact," "watershed moment," "key turning point"
 - AI loves making everything sound super important even when it's not
 - Real writing lets the importance show itself without constant reminders
 ​
-### Editorial Add-ons That Feel Pushy
-​
+### Editorial Add-ons That Feel Pushy​
 - "It's important to note..." "No discussion would be complete without..." "It is worth remembering..."
 - AI can't help adding opinions about what matters
 - These phrases reveal the machine trying to guide your thinking
 ​
-## Feelings & Emotion Patterns
-​
+## Feelings & Emotion Patterns​
 - Humans show stronger negative feelings (fear and disgust) and less happiness than AI text
 - AI gets more "toxic" as the model gets bigger
 - AI text is filled with "hope, fear, and sadness" with lots of neutral feelings too
@@ -81,15 +73,13 @@ Think of AI as an editor and writing helper, not someone who writes for you. You
 - AI avoids strong emotions or controversial opinions
 - Super optimistic, encouraging, or overly "helpful" tone
 ​
-## How Easy It Is to Read
-​
+## How Easy It Is to Read​
 - AI makes text that's harder to read even though it sounds fancy - higher reading difficulty scores
 - AI shows more word variety and complex sentences but doesn't communicate as well
 - AI text can be "too perfect" - hitting every point without any rough spots
 - Differences in how words are stressed and how many difficult words are used
 ​
-## Facts & Sources
-​
+## Facts & Sources​
 - Vague mentions of "studies or experts" without actual names, dates, or where to find them
 - Common vague phrases: "Industry experts say..." "Some critics argue..." "Observers have noted..." "Many studies show..." "A recent survey found..."
 - Sources that don't actually back up what's being said or aren't real
@@ -98,8 +88,7 @@ Think of AI as an editor and writing helper, not someone who writes for you. You
 - Avoids specific numbers or real examples
 - Business jargon like "game-changing," "cutting-edge," "revolutionary," "innovative" without explaining what they actually mean
 ​
-## Content-Specific Signs
-​
+## Content-Specific Signs​
 - When AI has to use real names, it picks the most basic, common names possible
 - "60-70% of names in AI articles are either 'Emily' or 'Sarah'"
 - AI repeats itself, especially in conclusions
@@ -112,44 +101,38 @@ Think of AI as an editor and writing helper, not someone who writes for you. You
 - Leftover prompt instructions sometimes show up in the final text (major giveaway when people forget to delete them)
 - When asked to rewrite itself, AI just swaps in synonyms instead of actually restructuring sentences
 ​
-## How Formal It Sounds
-​
+## How Formal It Sounds​
 - Way more formal and impersonal overall
 - "Formality mismatch" - super formal when casual would be better
 - Missing contractions (like "don't," "can't"), slang, and common phrases
 - Distant voice with fewer "I/you/we" words
 - Gives general information without going deep
 ​
-## Punctuation Patterns
-​
+## Punctuation Patterns​
 - Heavy use of **em-dashes (—)** for everything
 - Barely uses exclamation marks, question marks, or dot-dot-dots to show emotion
 - Long sentences full of commas (20+ words on average)
 ​
-## Formatting Signs
-​
+## Formatting Signs​
 - Too many bullet points and numbered lists
 - Colons in titles over and over (like "Topic: Subtopic: Detail")
 - All headings and subheadings at the same level
 - Super organized structure with perfect balance
 - No paragraph indents - just big blocks of text (AI output doesn't use traditional indentation)
 ​
-## How It Starts
-​
+## How It Starts​
 - Formula openings like "Have you ever wondered..." "Are you struggling with..." "What if I told you..."
 - Multiple questions in a row asking the reader things
 - Super smooth transitions between topics
 - Always enthusiastic or happy throughout
 ​
-## Overall Patterns
-​
+## Overall Patterns​
 - Sudden changes in style when human writing becomes AI or the other way around
 - AI text sounds different each time (no consistent personal style)
 - "Talks at you rather than to you"
 - Same perfect quality throughout (no messy parts like humans have when writing drafts)
 ​
-## Important Things to Remember
-​
+## Important Things to Remember​
 These patterns "can only be spotted using detailed language analysis" - humans don't naturally notice these small differences. Patterns also change based on:
 ​
 - **Which AI model** (ChatGPT vs Claude vs Gemini)
