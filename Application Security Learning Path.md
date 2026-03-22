@@ -164,14 +164,22 @@ These are not drop-in SAST tools; they are autonomous systems that combine fuzzi
 
 This is your hands-on laboratory. Set up your own secure pipeline using open source tools. Use GitHub runners or Jenkins locally. Configure it to run against vulnerable code and scan using free open source scanners:
 
-- **SAST**: Semgrep (free), OpenGrep (free), Snyk (free tier), Bandit (Python), Brakeman (Rails), Gosec (Go), SpotBugs (Java), ESLint security plugins (JavaScript) -- use language-specific tools where you can, they produce fewer false positives than generic scanners
-- **DAST**: OWASP ZAP (free), Nikto (free), Nuclei (free, ProjectDiscovery), Burp Suite Community (free) -- Nuclei is worth learning early; the template library is massive and it's widely used in real pipelines
-- **SCA (Software Composition Analysis)**: OWASP Dependency-Check, Snyk (free tier), Grype (free, Anchore), OSV-Scanner (free, Google), Dependabot (free, GitHub native) -- Grype pairs well with Syft; scan the SBOM you generate rather than the source directly
-- **Container Scanning**: Trivy (free), Grype (free), Docker Scout (free tier), Clair (free, open source) -- Trivy does double duty here; it also handles IaC and filesystem scanning so it's worth learning well
-- **SBOM Generation**: Syft (free, Anchore), CycloneDX CLI (free), Microsoft SBOM Tool (free) -- understand both CycloneDX and SPDX formats; different tools and consumers expect different formats
-- **Secrets Detection**: Gitleaks (free), TruffleHog (free, Trufflesecurity), detect-secrets (free, Yelp) -- this category is missing from most beginner lists but secrets in code and git history are one of the most common real-world findings; learn it early
-- **IaC Scanning**: Checkov (free, Bridgecrew), Trivy (IaC mode), tfsec (free), KICS (free, Checkmarx) -- if you're working in cloud-native environments you will touch Terraform or CloudFormation constantly; knowing how to scan it is expected
-- **API Security Testing**: Nuclei (API templates), ZAP (API scan mode), Postman (free tier with basic security testing) -- most modern apps are APIs; pure web DAST misses a lot without API-specific tooling
+- **SAST**: Semgrep (free), OpenGrep (free), Snyk (free tier), Bandit (Python), Brakeman (Rails), Gosec (Go), SpotBugs (Java), ESLint security plugins (JavaScript) 
+    - use language-specific tools where you can, they produce fewer false positives than generic scanners
+- **DAST**: OWASP ZAP (free), Nikto (free), Nuclei (free, ProjectDiscovery), Burp Suite Community (free) 
+    - Nuclei is worth learning early; the template library is massive and it's widely used in real pipelines
+- **SCA (Software Composition Analysis)**: OWASP Dependency-Check, Snyk (free tier), Grype (free, Anchore), OSV-Scanner (free, Google), Dependabot (free, GitHub native) 
+    - Grype pairs well with Syft; scan the SBOM you generate rather than the source directly
+- **Container Scanning**: Trivy (free), Grype (free), Docker Scout (free tier), Clair (free, open source) 
+    - Trivy does double duty here; it also handles IaC and filesystem scanning so it's worth learning well
+- **SBOM Generation**: Syft (free, Anchore), CycloneDX CLI (free), Microsoft SBOM Tool (free)
+    - understand both CycloneDX and SPDX formats; different tools and consumers expect different formats
+- **Secrets Detection**: Gitleaks (free), TruffleHog (free, Trufflesecurity), detect-secrets (free, Yelp) 
+    - this category is missing from most beginner lists but secrets in code and git history are one of the most common real-world findings; learn it early
+- **IaC Scanning**: Checkov (free, Bridgecrew), Trivy (IaC mode), tfsec (free), KICS (free, Checkmarx) 
+    - if you're working in cloud-native environments you will touch Terraform or CloudFormation constantly; knowing how to scan it is expected
+- **API Security Testing**: Nuclei (API templates), ZAP (API scan mode), Postman (free tier with basic security testing) 
+    - most modern apps are APIs; pure web DAST misses a lot without API-specific tooling
 
 #### Example Pipeline Build Guides
 
