@@ -50,6 +50,8 @@ Here's the list with names and context added:
   https://www.linkedin.com/in/danielmiessler/
 - **Matt Johansen** -- Practitioner-focused security voice, runs the Thoughtful Security newsletter, writes about real-world AppSec and vulnerability management
   https://www.linkedin.com/in/matthewjohansen/
+- **Anshuman Bhartiya** -- Staff Security Engineer at Lyft, co-host of The Boring AppSec Podcast, strong practitioner voice on AI and AppSec
+  https://www.linkedin.com/in/anshumanbhartiya/
 - **Derek Fisher** -- Author of "The Product Security Handbook", AppSec and ProdSec leader focused on building security programs at scale
   https://www.linkedin.com/in/derek-fisher-sec-arch/
 - **Adam Shostack** -- Threat modeling expert, author of "Threat Modeling: Designing for Security", one of the most referenced voices in the field
@@ -144,6 +146,10 @@ AI security is exploding right now. Get ahead of it:
 - Go to YouTube and search "AI Security" and you'll find tons of videos. Start digesting and learning, taking notes as you go.
 - Dive into Model Context Protocol (MCP), MCP Security, AI Agents, and related topics (Just Google or search on LinkedIn, you'll find a ton of stuff)
 - Reference the OWASP Top 10 for LLMs when working with AI/ML applications
+
+#### Follow Paolo, as he keeps posting free courses to take and learn on AI, look over his posts
+- **Paolo Perrone** -- AI/ML content and audience building, useful follow for LinkedIn content strategy and staying current on AI trends
+  https://www.linkedin.com/in/paoloperrone/
 
 #### AI SAST
 - **AI Vulnerability Discovery (AIxCC CRS, open source)**:
@@ -241,6 +247,7 @@ Getting into security isn't just about learning technical skills. It's also abou
 ### Podcasts to Tune into
 - Coffee, Chaos and ProdSec: https://linktr.ee/coffeechaosprodsec
 - Absolute AppSec: https://absoluteappsec.com/
+- Boring AppSec Podcast: https://www.boringappsec.com/s/podcast
 - Application Security Weekly: https://www.scworld.com/podcast-show/application-security-weekly
 - The Application Security Podcast: https://appsec.buzzsprout.com/
 - The Security Champions Podcast: https://www.securityjourney.com/resources/security-champions-podcast
@@ -280,4 +287,12 @@ Stay current with security news and practical advice:
 
 ## Final Thought
 
-Breaking into AppSec isn't about collecting certifications. It's about building practical skills, understanding how developers work, and being able to secure software at every stage of the SDLC. Build things, break things, document what you learn, and contribute to the community. That's what gets you in the door.
+Breaking into AppSec isn't about collecting certifications. It's about building practical skills, understanding how developers work, and being able to secure software at every stage of the SDLC.
+
+The people who thrive in this field share a few traits: they're curious, they don't stop at "it's vulnerable" -- they understand why, and they can explain it to a developer in a way that ctually gets it fixed. They know how to prioritize when everything feels urgent. They build relationships with engineering teams instead of policing them. And they stay humble, because this field moves fast and yesterday's knowledge goes stale quickly.
+
+You don't need to know everything to get started. You need to know enough to be useful, be honest about your gaps, and show that you're actively closing them. Hiring managers aren't looking for perfect candidates -- they're looking for people who can learn, contribute, and grow without constant hand-holding.
+
+Build things. Break things. Document what you learn. Write about it, even if the audience is small. Contribute to open source projects. Show up to local meetups. Ask questions publicly. That body of work -- your GitHub, your blog, your community presence -- is often more compelling than any certification on your resume.
+
+The security community is more accessible than it looks from the outside. Most practitioners remember what it felt like to be starting out and are willing to help people who show genuine effort. Put in the work, be consistent, and the door will open.
