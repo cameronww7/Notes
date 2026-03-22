@@ -1,6 +1,12 @@
 # Application Security Learning Path
 
-So you want to break into AppSec, DevSecOps, or Product Security? Here's a practical roadmap to get you there.
+## Why Read This?
+
+So you want to break into AppSec, DevSecOps, or Product Security. This isn't a generic list of certifications to collect or courses to finish. It's a practical roadmap built from real experience.
+
+I was a developer first. I made the transition into security and now run a global AppSec and Product Security team. This is what I hire for, what I mentor people toward, and what I expect from the engineers on my team.
+
+Whether you're coming from software engineering, IT, sysadmin, or starting fresh, this path is designed to get you job-ready with skills that translate directly into the work -- not just the interview.
 
 ## How to Learn Effectively
 
@@ -24,6 +30,40 @@ Reading or listening is not enough. You need to actively engage with what you're
 Learning security is about building mental models, not memorizing facts. The goal is to develop intuition for how systems break and how to build them securely.
 
 - Active Learning: 5 Reasons You're Doing Active Learning WRONG: https://www.youtube.com/watch?v=0A5Ji-QdFvg
+
+Here's the list with names and context added:
+
+## People to Follow on LinkedIn to Stay Up To Date
+- **Tanya Janca** -- Founder of We Hack Purple, author of "Alice and Bob Learn Application Security", one of the most active AppSec educators online
+  https://www.linkedin.com/in/tanya-janca/
+- **Jim Manico** -- OWASP contributor, AppSec educator, frequent conference speaker on secure coding and developer security training
+  https://www.linkedin.com/in/jmanico/
+- **Ken Johnson** (cktricky) -- Co-founder & CTO of DryRun Security, co-host of the Absolute AppSec podcast, 18+ years breaking and building web apps
+  https://www.linkedin.com/in/cktricky/
+- **Cameron Whiting** -- Director of Application Security & Security Engineering, co-founder of the OWASP Secure Pipeline Verification Standard (SPVS), co-host of Coffee, Chaos & ProdSec
+  https://www.linkedin.com/in/cameronww7/
+- **Clint Gibler** -- Founder of tl;dr sec, one of the best curated security newsletters available, strong signal-to-noise ratio on AppSec trends
+  https://www.linkedin.com/in/clintgibler/
+- **Chris Hughes** -- Resilient Cyber, author and analyst focused on software supply chain security, vulnerability management, and cyber risk
+  https://www.linkedin.com/in/resilientcyber/
+- **Daniel Miessler** -- Security researcher and writer, runs the Unsupervised Learning newsletter, strong voice on AI and security convergence
+  https://www.linkedin.com/in/danielmiessler/
+- **Matt Johansen** -- Practitioner-focused security voice, runs the Thoughtful Security newsletter, writes about real-world AppSec and vulnerability management
+  https://www.linkedin.com/in/matthewjohansen/
+- **Derek Fisher** -- Author of "The Product Security Handbook", AppSec and ProdSec leader focused on building security programs at scale
+  https://www.linkedin.com/in/derek-fisher-sec-arch/
+- **Adam Shostack** -- Threat modeling expert, author of "Threat Modeling: Designing for Security", one of the most referenced voices in the field
+  https://www.linkedin.com/in/shostack/
+- **Patrick Garrity** -- Security researcher focused on vulnerability data and exploitation trends, consistently useful signal on what's actually getting exploited
+  https://www.linkedin.com/in/patrickmgarrity/
+- **Katie Moussouris** -- Founder of Luta Security, pioneered bug bounty and vulnerability disclosure policy, key voice on responsible disclosure and CVD
+  https://www.linkedin.com/in/kmoussouris/
+- **Dan Lorenc** -- Co-founder & CEO of Chainguard, software supply chain security and open source security, deep expertise in SLSA and sigstore
+  https://www.linkedin.com/in/danlorenc/
+- **Caleb Sima** -- AI security leader and advisor, former CSO, one of the more credible voices on AI security in production environments
+  https://www.linkedin.com/in/calebsima/
+- **Codrut Andrei** -- Director of Product Security, AppSec and Secure SDLC practitioner, active mentor helping people break into the field
+  https://www.linkedin.com/in/codrut-andrei/
 
 ## Foundational Knowledge
 
@@ -84,6 +124,17 @@ These aren't just reading material. They're the standards you'll reference daily
 ### Learn to Code (Yes, Really)
 
 You can't secure what you don't understand. There are lots of free courses on YouTube from different channels such as FreeCodeCamp, and Udemy offers cheap courses if you want more structured learning. Learning how to code, understand code, and recognize what languages are used in different parts of software is absolutely key. Take full stack programming courses and learn Python or Go for automation/API-to-API scripts. You're going to talk to developers and work with developers every single day. You need to speak their language or you won't be effective.
+- You will need to understand how code works -- not just syntax, but control flow, how data moves through a function, how inputs become outputs, and where things can go wrong. You're looking for vulnerabilities in code every day; you can't spot them if you can't read the code.
+- Understand how 3rd party libraries (OSS) are packaged and pulled into code -- how package managers like npm, pip, Maven, and Go modules work, what a dependency tree looks like, and why transitive dependencies matter. Most vulnerabilities in modern apps aren't in custom code, they're in the libraries it uses.
+- How software is built, common design patterns -- understand MVC, microservices, monoliths, and how data flows between layers. Know what an API gateway does, what a service mesh is, and why a frontend talking directly to a database is a problem. Security decisions map directly to architecture decisions.
+- How to read someone else's code -- writing code is one skill, reading unfamiliar codebases is another. In AppSec you will rarely write the code you're reviewing. Practice navigating large repos, tracing data from entry points to sinks, and identifying where user input is handled. This is the core of manual code review.
+- How web frameworks handle requests -- understand the request/response lifecycle in frameworks like Express, Django, Spring, or Rails. Know what middleware does, how routing works, and where user input enters the application. Most injection vulnerabilities live in the gap between input handling and data processing.
+- How authentication and sessions are implemented -- not just how OAuth or JWTs work conceptually, but how developers actually wire them into an app. Where tokens are stored, how session state is managed, and where developers commonly cut corners under deadline pressure.
+- How secrets and environment variables are used -- understand how apps consume API keys, database credentials, and config values at runtime. Know the difference between how secrets should be managed versus how they often are in practice, which is hardcoded in source or committed in .env files.
+- How errors are handled -- stack traces, exception handling, logging. Poorly handled errors leak internal details. Over-verbose logging captures sensitive data. This shows up constantly in code review and is easy to miss if you don't know what you're looking for.
+- How serialization and deserialization works -- data gets converted between formats constantly: JSON, XML, binary, protocol buffers. Understand how an app parses external input and why deserialization of untrusted data is one of the more dangerous things code can do.
+- How version control and branching models work -- understand Git beyond basic commits. Know how feature branches, PRs, and merge strategies work because code review in AppSec happens inside that workflow. If you can't navigate a PR diff or trace a change back through history, you're slower than you need to be.
+
 
 ### AI & Emerging Technologies
 
@@ -94,17 +145,33 @@ AI security is exploding right now. Get ahead of it:
 - Dive into Model Context Protocol (MCP), MCP Security, AI Agents, and related topics (Just Google or search on LinkedIn, you'll find a ton of stuff)
 - Reference the OWASP Top 10 for LLMs when working with AI/ML applications
 
+#### AI SAST
+- **AI Vulnerability Discovery (AIxCC CRS, open source)**:
+  Atlantis (Team Atlanta, 1st place), Buttercup (Trail of Bits, 2nd place), Theori CRS (Theori, 3rd place)
+  - Atlantis: https://github.com/Team-Atlanta/aixcc-afc-atlantis
+  - Buttercup (standalone, maintained): https://github.com/trailofbits/buttercup
+  - Buttercup (competition submission): https://github.com/trailofbits/afc-buttercup
+  - Theori CRS: https://github.com/theori-io/aixcc-afc-archive
+
+These are not drop-in SAST tools; they are autonomous systems that combine fuzzing, static analysis, and multi-agent LLMs to find and patch vulnerabilities without human input. They competed across 54 million lines of code at DEF CON 33 (August 2025) and collectively found 18 real, non-synthetic vulnerabilities in production open-source projects.  
+- Buttercup is the most accessible starting point: Trail of Bits rebuilt it post-competition as a standalone version designed to run on a laptop. Theori's repo is archived and unsupported. Atlantis is actively maintained.
+- These require LLM API keys (OpenAI, Anthropic, or Google) and can burn through budget fast. Buttercup has a tuned-down mode for individual use.
+- Worth studying even if you don't run them: the architecture of how these systems triage, analyze, and patch code is directly relevant to where AI-assisted AppSec tooling is heading.
+
 **Key AI Security Terms to Research:** Prompt injection, Model poisoning, Jailbreaking, Hallucination, Context window attacks, Model extraction, Data leakage, Shadow AI, AI supply chain, Model Context Protocol (MCP), AI Agents, AI-assisted coding
 
 ### Build Your Own Secure Pipeline
 
 This is your hands-on laboratory. Set up your own secure pipeline using open source tools. Use GitHub runners or Jenkins locally. Configure it to run against vulnerable code and scan using free open source scanners:
 
-- **SAST**: Semgrep (free), Snyk (free tier), OpenGrep (free)
-- **DAST**: ZAP (free)
-- **SCA (Software Composition Analysis)**: OWASP Dependency-Check, Snyk (has free tier)
-- **Container Scanning**: Trivy (free)
-- **SBOM Generation**: Syft (https://github.com/anchore/syft)
+- **SAST**: Semgrep (free), OpenGrep (free), Snyk (free tier), Bandit (Python), Brakeman (Rails), Gosec (Go), SpotBugs (Java), ESLint security plugins (JavaScript) -- use language-specific tools where you can, they produce fewer false positives than generic scanners
+- **DAST**: OWASP ZAP (free), Nikto (free), Nuclei (free, ProjectDiscovery), Burp Suite Community (free) -- Nuclei is worth learning early; the template library is massive and it's widely used in real pipelines
+- **SCA (Software Composition Analysis)**: OWASP Dependency-Check, Snyk (free tier), Grype (free, Anchore), OSV-Scanner (free, Google), Dependabot (free, GitHub native) -- Grype pairs well with Syft; scan the SBOM you generate rather than the source directly
+- **Container Scanning**: Trivy (free), Grype (free), Docker Scout (free tier), Clair (free, open source) -- Trivy does double duty here; it also handles IaC and filesystem scanning so it's worth learning well
+- **SBOM Generation**: Syft (free, Anchore), CycloneDX CLI (free), Microsoft SBOM Tool (free) -- understand both CycloneDX and SPDX formats; different tools and consumers expect different formats
+- **Secrets Detection**: Gitleaks (free), TruffleHog (free, Trufflesecurity), detect-secrets (free, Yelp) -- this category is missing from most beginner lists but secrets in code and git history are one of the most common real-world findings; learn it early
+- **IaC Scanning**: Checkov (free, Bridgecrew), Trivy (IaC mode), tfsec (free), KICS (free, Checkmarx) -- if you're working in cloud-native environments you will touch Terraform or CloudFormation constantly; knowing how to scan it is expected
+- **API Security Testing**: Nuclei (API templates), ZAP (API scan mode), Postman (free tier with basic security testing) -- most modern apps are APIs; pure web DAST misses a lot without API-specific tooling
 
 #### Example Pipeline Build Guides
 
@@ -126,6 +193,8 @@ Alternatively, build a similar home lab environment. Document what you build. Th
 ### Learn the Attacker Mindset
 
 Learning the basics of hacking can really contextualize vulnerabilities and is critical for replicating them. Start with the free TCM Security Practical Ethical Hacking course on YouTube: https://youtube.com/playlist?list=PLLKT__MCUeixqHJ1TRqrHsEd6_EdEvo47&si=xxMBSn3Eae4BJH6C
+
+For web application security specifically, work through PortSwigger Web Security Academy (free): https://portswigger.net/web-security -- it covers every major web vulnerability class hands-on in a browser-based lab environment. If you're going into AppSec this is one of the most directly applicable resources available. Most of the vulnerabilities you will find in code reviews and DAST results map directly to topics covered here.
 
 Then consider taking the Certified Penetration Testing Specialist (CPTS) from HackTheBox or the TCM PJPT or PNPT. Understanding how attackers think and operate makes you exponentially better at defense.
 
@@ -160,6 +229,14 @@ This is fundamental to AppSec. It's not optional. Threat modeling helps you iden
 Getting into security isn't just about learning technical skills. It's also about building relationships with other practitioners in your area. Look up local cybersecurity meetups on Meetup.com, search for security events on Eventbrite, and find conferences near you. This will take some Googling, but search for things like "OWASP chapter [your city]", "cybersecurity meetups [your city]", and "security conferences [your state/region]". These events are invaluable for networking, learning what skills are in demand locally, and often hearing about job opportunities before they're posted. Show up, introduce yourself, and don't be afraid to tell people you're looking to break into the field. The security community is generally welcoming to newcomers who show genuine interest.
 
 ## Additional Resources
+
+### Podcasts to Tune into
+- Coffee, Chaos and ProdSec: https://linktr.ee/coffeechaosprodsec
+- Absolute AppSec: https://absoluteappsec.com/
+- Application Security Weekly: https://www.scworld.com/podcast-show/application-security-weekly
+- The Application Security Podcast: https://appsec.buzzsprout.com/
+- The Security Champions Podcast: https://www.securityjourney.com/resources/security-champions-podcast
+- What's in the SOSS? An OpenSSF Podcast: https://openssf.org/podcast/
 
 ### Curated Lists & Collections
 
