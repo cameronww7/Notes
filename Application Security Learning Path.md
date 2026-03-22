@@ -40,7 +40,7 @@ Here's the list with names and context added:
   https://www.linkedin.com/in/jmanico/
 - **Ken Johnson** (cktricky) -- Co-founder & CTO of DryRun Security, co-host of the Absolute AppSec podcast, 18+ years breaking and building web apps
   https://www.linkedin.com/in/cktricky/
-- **Cameron Whiting** -- Director of Application Security & Security Engineering, co-founder of the OWASP Secure Pipeline Verification Standard (SPVS), co-host of Coffee, Chaos & ProdSec
+- **Cameron Walters** -- Director of Application Security & Security Engineering, co-founder of the OWASP Secure Pipeline Verification Standard (SPVS), co-host of Coffee, Chaos & ProdSec
   https://www.linkedin.com/in/cameronww7/
 - **Clint Gibler** -- Founder of tl;dr sec, one of the best curated security newsletters available, strong signal-to-noise ratio on AppSec trends
   https://www.linkedin.com/in/clintgibler/
