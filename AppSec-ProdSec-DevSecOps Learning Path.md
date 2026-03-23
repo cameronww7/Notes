@@ -1,4 +1,4 @@
-# Application Security Learning Path
+# Application Security/Product Security/DevSecOps Learning Path
 
 ## Why Read This?
 
@@ -112,7 +112,6 @@ These aren't just reading material. They're the standards you'll reference daily
 - OWASP SPVS (Secure Pipeline Verification Standard): https://owasp.org/www-project-spvs/
 
 ### Understand the Cloud
-
 - Take AWS Certified Cloud Practitioner (CCP) or general cloud understanding courses. 
     - Free course: https://youtu.be/NhDYbskXRgc?si=pHmsypJT3WfrzCxt
 - Or for Azure (Microsoft Certified: Azure Fundamentals (Exam AZ-900))
@@ -120,11 +119,7 @@ These aren't just reading material. They're the standards you'll reference daily
 - Follow up with cloud security-specific training (Youtube, Blogs, just search Cloud Security)
 - Modern AppSec lives in the cloud. You need to understand how cloud environments work. 
 
-
-## Technical Hands-On Skills
-
-### Learn to Code (Yes, Really)
-
+## Learn to Code (Yes, Really)
 You can't secure what you don't understand. There are lots of free courses on YouTube from different channels such as FreeCodeCamp, and Udemy offers cheap courses if you want more structured learning. Learning how to code, understand code, and recognize what languages are used in different parts of software is absolutely key. Take full stack programming courses and learn Python or Go for automation/API-to-API scripts. You're going to talk to developers and work with developers every single day. You need to speak their language or you won't be effective.
 - You will need to understand how code works -- not just syntax, but control flow, how data moves through a function, how inputs become outputs, and where things can go wrong. You're looking for vulnerabilities in code every day; you can't spot them if you can't read the code.
 - Understand how 3rd party libraries (OSS) are packaged and pulled into code -- how package managers like npm, pip, Maven, and Go modules work, what a dependency tree looks like, and why transitive dependencies matter. Most vulnerabilities in modern apps aren't in custom code, they're in the libraries it uses.
@@ -138,8 +133,7 @@ You can't secure what you don't understand. There are lots of free courses on Yo
 - How version control and branching models work -- understand Git beyond basic commits. Know how feature branches, PRs, and merge strategies work because code review in AppSec happens inside that workflow. If you can't navigate a PR diff or trace a change back through history, you're slower than you need to be.
 
 
-### AI & Emerging Technologies
-
+## AI & Emerging Technologies
 AI security is exploding right now. Get ahead of it:
 
 - Start with TCM Security's AI Fundamentals course (free on YouTube and TCM Academy)
@@ -147,11 +141,12 @@ AI security is exploding right now. Get ahead of it:
 - Dive into Model Context Protocol (MCP), MCP Security, AI Agents, and related topics (Just Google or search on LinkedIn, you'll find a ton of stuff)
 - Reference the OWASP Top 10 for LLMs when working with AI/ML applications
 
-#### Follow Paolo, as he keeps posting free courses to take and learn on AI, look over his posts
+### Follow Paolo, as he keeps posting free courses to take and learn on AI, look over his posts
 - **Paolo Perrone** -- AI/ML content and audience building, useful follow for LinkedIn content strategy and staying current on AI trends
   https://www.linkedin.com/in/paoloperrone/
 
-#### AI SAST
+
+### AI SAST
 - **AI Vulnerability Discovery (AIxCC CRS, open source)**:
   Atlantis (Team Atlanta, 1st place), Buttercup (Trail of Bits, 2nd place), Theori CRS (Theori, 3rd place)
   - Atlantis: https://github.com/Team-Atlanta/aixcc-afc-atlantis
@@ -160,13 +155,15 @@ AI security is exploding right now. Get ahead of it:
   - Theori CRS: https://github.com/theori-io/aixcc-afc-archive
 
 These are not drop-in SAST tools; they are autonomous systems that combine fuzzing, static analysis, and multi-agent LLMs to find and patch vulnerabilities without human input. They competed across 54 million lines of code at DEF CON 33 (August 2025) and collectively found 18 real, non-synthetic vulnerabilities in production open-source projects.  
-- Buttercup is the most accessible starting point: Trail of Bits rebuilt it post-competition as a standalone version designed to run on a laptop. Theori's repo is archived and unsupported. Atlantis is actively maintained.
+- Buttercup is the most accessible starting point: 
+  - Trail of Bits rebuilt it post-competition as a standalone version designed to run on a laptop. 
+  - Theori's repo is archived and unsupported. Atlantis is actively maintained.
 - These require LLM API keys (OpenAI, Anthropic, or Google) and can burn through budget fast. Buttercup has a tuned-down mode for individual use.
 - Worth studying even if you don't run them: the architecture of how these systems triage, analyze, and patch code is directly relevant to where AI-assisted AppSec tooling is heading.
 
 **Key AI Security Terms to Research:** Prompt injection, Model poisoning, Jailbreaking, Hallucination, Context window attacks, Model extraction, Data leakage, Shadow AI, AI supply chain, Model Context Protocol (MCP), AI Agents, AI-assisted coding
 
-### Build Your Own Secure Pipeline
+## Build Your Own Secure Pipeline
 
 This is your hands-on laboratory. Set up your own secure pipeline using open source tools. Use GitHub runners or Jenkins locally. Configure it to run against vulnerable code and scan using free open source scanners:
 
@@ -187,7 +184,7 @@ This is your hands-on laboratory. Set up your own secure pipeline using open sou
 - **API Security Testing**: Nuclei (API templates), ZAP (API scan mode), Postman (free tier with basic security testing) 
     - most modern apps are APIs; pure web DAST misses a lot without API-specific tooling
 
-#### Example Pipeline Build Guides
+### Example Pipeline Build Guides
 
 - Building a DevSecOps Pipeline with Open Source Tools: https://medium.com/cloud-native-daily/building-a-devsecops-pipeline-with-open-source-tools-ad4fd0e13515
 - FPL Insights Dashboard - Real-World DevSecOps Lab Project: https://medium.com/@bll_78288/fpl-insights-dashboard-a-real-world-devops-devsecops-lab-project-85e7065ea7c9
@@ -204,7 +201,7 @@ The crucial next step is understanding and triaging those results. Learn how to 
 
 Alternatively, build a similar home lab environment. Document what you build. This becomes portfolio material.
 
-### Learn the Attacker Mindset
+## Learn the Attacker Mindset
 
 Learning the basics of hacking can really contextualize vulnerabilities and is critical for replicating them. Start with the free TCM Security Practical Ethical Hacking course on YouTube: https://youtube.com/playlist?list=PLLKT__MCUeixqHJ1TRqrHsEd6_EdEvo47&si=xxMBSn3Eae4BJH6C
 
@@ -212,7 +209,7 @@ For web application security specifically, work through PortSwigger Web Security
 
 Then consider taking the Certified Penetration Testing Specialist (CPTS) from HackTheBox or the TCM PJPT or PNPT. Understanding how attackers think and operate makes you exponentially better at defense.
 
-### Certifications Worth Considering
+## Certifications Worth Considering
 
 While certifications aren't everything, some can provide structured learning paths and credibility:
 
@@ -234,17 +231,31 @@ In order of recommended progression:
 
 ## Core Skills That Separate You From the Pack
 
-### Threat Modeling
+**Threat Modeling:**
+This is fundamental to AppSec. It's not optional. Threat modeling helps you identify security risks during the design phase, before code is even written. Threat Modeling or Secure Design Review, is evaluating architecture before code is written. Most high-impact vulnerabilities are baked in at the design phase. Catching them there is exponentially cheaper than finding them post-deployment. Focus on methodologies like STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) and PASTA. This skill separates good AppSec engineers from great ones. Hiring managers look for this.
+- Adam Shostack Threat Modeling Playlists: https://www.youtube.com/@Shostack/playlists
+- Threat Modeling with AI: Turning Every Developer into a Threat Modeler: https://www.youtube.com/watch?v=GW0zQGs8FCY
+- Threat Modeling Agentic AI Systems: Proactive Strategies for Security and Resilience: https://www.youtube.com/watch?v=R49Cv7pJ2KA
 
-This is fundamental to AppSec. It's not optional. Threat modeling helps you identify security risks during the design phase, before code is even written. Focus on methodologies like STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) and PASTA. This skill separates good AppSec engineers from great ones. Hiring managers look for this.
+**Risk Communication:**
+A CVSS score means nothing to a VP of Engineering or a CFO. Learn to frame findings in terms of business outcomes: what data is at risk, what does exploitation look like, and what does fixing it cost versus not fixing it. If you can brief a CISO and a developer on the same finding two different ways without losing accuracy in either, 
+you will stand out.
+
+**Developer Empathy:**
+Developers are under constant pressure to ship and security is rarely their primary job function. If you show up as the person who slows them down and blocks releases, you will be ignored. If you show up as the person who helps them write secure code faster and integrates into their workflow, you become an asset. The best AppSec engineers have either written production code or spent enough time with engineering teams to deeply understand the tradeoffs developers face daily.
+
+**Metrics and Measurement:**
+You cannot defend your program without data. Learn what metrics actually matter: mean time to remediate by severity, SLA compliance rates, scanner coverage, and reduction in repeat vulnerability classes over time. Know what metrics are vanity: total vulnerabilities found means almost nothing without context. When budget cycles come around and leadership asks whether the program is working, you need to answer 
+with data, not anecdotes.
+
+**Incident Response Fundamentals:**
+AppSec engineers get pulled into incidents more than people expect. You do not need to be a full incident responder, but you need to understand the basics: how to scope an incident, what forensic preservation looks like, how to write a timeline, and how to communicate status to leadership without downplaying or escalating prematurely. Being calm and structured during an incident is one of the fastest ways to build 
+credibility with senior leadership.
 
 ## Local Networking
-
 Getting into security isn't just about learning technical skills. It's also about building relationships with other practitioners in your area. Look up local cybersecurity meetups on Meetup.com, search for security events on Eventbrite, and find conferences near you. This will take some Googling, but search for things like "OWASP chapter [your city]", "cybersecurity meetups [your city]", and "security conferences [your state/region]". These events are invaluable for networking, learning what skills are in demand locally, and often hearing about job opportunities before they're posted. Show up, introduce yourself, and don't be afraid to tell people you're looking to break into the field. The security community is generally welcoming to newcomers who show genuine interest.
 
-## Additional Resources
-
-### Podcasts to Tune into
+## Podcasts to Tune into
 - Coffee, Chaos and ProdSec: https://linktr.ee/coffeechaosprodsec
 - Absolute AppSec: https://absoluteappsec.com/
 - Boring AppSec Podcast: https://www.boringappsec.com/s/podcast
@@ -253,12 +264,7 @@ Getting into security isn't just about learning technical skills. It's also abou
 - The Security Champions Podcast: https://www.securityjourney.com/resources/security-champions-podcast
 - What's in the SOSS? An OpenSSF Podcast: https://openssf.org/podcast/
 
-### Curated Lists & Collections
-
-- Awesome AppSec: A comprehensive curated list of resources, tools, and learning materials: https://github.com/paragonie/awesome-appsec
-
-### Newsletters & Blogs
-
+## Newsletters & Blogs
 Stay current with security news and practical advice:
 
 - TL;DR sec (Newsletter & Blog): https://tldrsec.com/subscribe
@@ -266,26 +272,39 @@ Stay current with security news and practical advice:
 - Resilient Cyber: https://www.resilientcyber.io/
 - Cybersecurity Pulse: https://www.cybersecuritypulse.net/
 
-### YouTube Channels & Video Content
+## YouTube Channels & Video Content
+- OWASP Global: Watch recordings from OWASP AppSec conferences and expand your knowledge on application security.
+  - https://www.youtube.com/@OWASPGLOBAL
+- LASCON: Real-world AppSec conference talks and presentations from practitioners.
+  - https://youtube.com/@lascon512
+- BSidesSF: Security BSides San Francisco is a two-day information security conference. It is a conference by the community for the community.
+  - https://www.youtube.com/@BSidesSF
+- DEFCON Conference: DEF CON is one of the oldest continuously running hacker conventions around, and also one of the largest.
+  - https://www.youtube.com/@DEFCONConference
+- Black Hat: Black Hat Briefings and Trainings are driven by the needs of the global security community, striving to bring together the best minds in the industry.
+  - https://www.youtube.com/@BlackHatOfficialYT/featured
+- OWASP DevSlop (Tanya Janca): Practical AppSec education, secure coding, and developer-focused security content.
+  - https://youtube.com/@DevSlop
+- DevSecOps Course - Web Vulnerabilities, DevSecOps Tools, and Container Security.
+  - https://www.youtube.com/watch?v=F5KJVuii0Yw
 
-- LASCON: Real-world AppSec conference talks and presentations from practitioners: https://youtube.com/@lascon512
-- OWASP DevSlop (Tanya Janca): Practical AppSec education, secure coding, and developer-focused security content: https://youtube.com/@DevSlop
-- DevSecOps Course - Web Vulnerabilities, DevSecOps Tools, and Container Security: https://www.youtube.com/watch?v=F5KJVuii0Yw
+## Interesting YouTube content creators with security education and training content
+- vulnerableu: Cybersecurity veteran and ex-CISO Matt Johansen shares front-line stories, proven frameworks, and global security news to help you build a stronger, more resilient security practice.
+  - https://youtube.com/@vulnerableu
+- LowLevelTV: Videos about cyber security + software security
+  - https://www.youtube.com/@LowLevelTV
 
-### Interesting YouTube content creators with security education and training content
-
-- https://youtube.com/@vulnerableu?si=I1OOhNfuZbGBwbDG
-- https://youtu.be/lqZo4waMB3c?si=wdbwYNi14CSnP-6T
-
-### Recommended Books
-
+## Recommended Books
 - "The Code Book" by Simon Singh: Understanding cryptography and its history
 - "The DevOps Handbook": Essential reading for understanding how DevOps and security integrate
 - "The DevSecOps Playbook: Deliver Continuous Security at Speed" by Sean D. Mack: Practical guide to implementing DevSecOps
 - "Agile Application Security: Enabling Security in a Continuous Delivery Pipeline" by Laura Bell: Security in agile and CI/CD environments
 - "Practical Vulnerability Management: A Strategic Approach to Managing Cyber Risk" by Andrew Magnusson: Strategic approach to vulnerability management
 
-## Final Thought
+## Curated Lists & Collections
+- Awesome AppSec: A comprehensive curated list of resources, tools, and learning materials: https://github.com/paragonie/awesome-appsec
+
+# Final Thought
 
 Breaking into AppSec isn't about collecting certifications. It's about building practical skills, understanding how developers work, and being able to secure software at every stage of the SDLC.
 
