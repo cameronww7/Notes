@@ -132,6 +132,36 @@ You can't secure what you don't understand. There are lots of free courses on Yo
 - How serialization and deserialization works -- data gets converted between formats constantly: JSON, XML, binary, protocol buffers. Understand how an app parses external input and why deserialization of untrusted data is one of the more dangerous things code can do.
 - How version control and branching models work -- understand Git beyond basic commits. Know how feature branches, PRs, and merge strategies work because code review in AppSec happens inside that workflow. If you can't navigate a PR diff or trace a change back through history, you're slower than you need to be.
 
+### Read Code Like an Attacker
+
+Most security tools find the obvious stuff. The real vulnerabilities like business logic flaws, broken authorization, subtle trust boundary violations which require a human who can read code and reason about how an attacker would abuse it.
+
+Security code review is not the same as a functional code review. You are not checking if the code works. You are asking: what happens when someone tries to
+break this? Where does user input go? What happens if this assumption is wrong? Who is allowed to call this function, and is that actually enforced?
+
+This skill takes time to develop but it compounds. Every codebase you review makes you faster at the next one. You start recognizing patterns: where injection flaws live, how authentication gets bolted on incorrectly, what insecure deserialization looks like across different languages. The goal is to build intuition that scanners don't have.
+
+What to focus on during a security code review:
+- How user input enters the application and whether it is validated, sanitized, and encoded correctly before use
+- Authentication and authorization: not just that it exists, but that it cannot be bypassed by manipulating parameters, headers, or request order
+- How secrets, credentials, and sensitive configuration are handled at runtime
+- Error handling and logging: what gets exposed in stack traces, what gets written to logs that should not be there
+- Third party library usage: how OSS dependencies are called and whether they are being used safely
+- Business logic: flows that are technically functional but exploitable by someone who understands how the system is supposed to work
+
+#### Know Your Codebase Before You Audit It: CLOC
+
+Before you start reviewing code, understand what you are actually looking at. CLOC (Count Lines of Code) is a free, open source command line tool that scans a codebase and tells you every language present, how many files, and how many lines of code, comments, and blanks exist per language.
+
+GitHub: https://github.com/AlDanial/cloc
+
+This matters more than it sounds. To an experienced AppSec engineer, a CLOC output is a threat modeling shortcut:
+- **Languages present** tell you what package managers to look for (npm, pip, Maven, Go modules, Gemfile), which scanners to run, and what vulnerability classes are most relevant to that stack
+- **Legacy languages** buried in the output (COBOL, Perl, PHP, old JSP) signal tech debt and code that may not have been touched or reviewed in years, often the most vulnerable parts of the application
+- **Disproportionate file counts** in unexpected languages can reveal forgotten scripts, internal tooling, or old services still running in production that nobody is accounting for in the security program
+- **Comment density** gives a rough signal of code quality and documentation practices, sparse comments in complex code makes review harder and riskier
+
+Running CLOC takes seconds. It gives you a map before you start the audit, so you are not discovering mid-review that half the backend is written in a language your SAST tool does not support.
 
 ## AI & Emerging Technologies
 AI security is exploding right now. Get ahead of it:
