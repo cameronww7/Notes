@@ -1,5 +1,5 @@
 # LinkedIn Algorithm 2026: Complete Strategy Guide
-**Updated February 17, 2026 - Latest algorithm data from 14+ sources**  
+**Updated April 2026 - Latest algorithm data from 17+ sources**  
 
 ---
 
@@ -7,103 +7,107 @@
 
 **The LinkedIn algorithm fundamentally shifted in 2025-2026:**
 
-- **"Depth Score" introduced** as primary ranking signal (Feb 2026) - measures dwell time, comment depth, saves
+- **Generative Recommenders + LLMs** now rank content (March 2026 official update, Tim Jurka/LinkedIn)
+- **Profile-to-content match** critical for distribution - your profile must confirm your credibility on what you post about
+- **Reshares now explicitly ranked** as top signal - optimizing for reshares vs likes requires different content
+- **"Depth Score"** as primary ranking signal - dwell time, comment depth, saves
 - **Document posts (PDF carousels): 6.60-40.5% engagement** - highest performing format
-- External links: **60% reach reduction ANYWHERE** (post OR comments both penalized)
-- **"Link in comments" workaround NOW PENALIZED** (Feb 2026 update)
-- **Hashtags are DEAD** - provide zero discoverability, may trigger spam filters
+- External links: **60% reach reduction** (post body confirmed; comment placement disputed - see Section 11)
+- **Hashtags are DEAD** - provide zero discoverability, NLP reads full content
 - **Emojis: 0-5 maximum** - more than 5 triggers spam detection
 - Single images: **underperform text by 30%** (reversal from 2024)
 - Company pages: **5% of feed** (personal profiles: 65%)
-- Posts can live: **2-3 weeks** (not just 24-48 hours)
-- Authenticity scores (hidden ranking factor)
+- Posts can live: **2-3 weeks** (relevance > recency)
 - **50-70 connection requests/day** hard cap
-- New top metrics: **Depth Score, Saves, Sends, Profile Visits**
 
-**Bottom line:** Create document posts on your personal profile. Optimize for Depth Score (dwell time + substantive comments + saves). Skip hashtags entirely. Never mention links. Expertise-driven content wins. Volume-based automation is dead.
+**Bottom line:** Match your profile to your content niche. Create document posts. Optimize for reshares and Depth Score. Skip hashtags. Expertise-driven content wins. Automation is dead.
 
 ---
 
-## FEBRUARY 2026 CRITICAL UPDATES
+## MARCH/APRIL 2026 CRITICAL UPDATES
 
-### 1. "Depth Score" - New Primary Ranking Signal
-LinkedIn introduced "Depth Score" as the main algorithm metric, replacing simple engagement counting:
-- **Dwell time** (how long users engage) - PRIMARY component
-- **Comment depth** (substantive discussions, not just count)
-- **Saves for later** (reference value signal)
+### 1. Official LinkedIn Algorithm Update (Tim Jurka, March 2026)
+LinkedIn's senior engineer published a public explanation of the Feed changes:
 
-### 2. Document Posts Dominate
-**NEW BENCHMARKS:**
-- Average engagement: **6.60%** (highest of any format)
-- Top performers: **40.5% engagement** in engaged niches
-- **278% more engagement than video**
-- **596% more than text posts**
+- **Generative Recommenders + LLMs** now understand what your post is actually about and match it to user profiles, behavior history, and topic signals
+- **Engagement pods and automation explicitly banned** - LinkedIn confirmed continued enforcement including browser extensions that simulate conversations
+- **Engagement bait actively suppressed** - "Comment YES", video/text mismatches, and AI copy-paste content
+- **Interest Picker for new members** - New users declare topic interests at signup, meaning your content can now reach professionals who have never interacted with you but follow your topic area
 
-### 3. "Link in Comments" Workaround - NOW PENALIZED
-Major discovery: Putting links in comments is now detected and penalized just like links in the main post.
-- 60% reach reduction applies **ANYWHERE** (post OR comments)
-- Saying "link in comments" is detected as manipulative
+### 2. Profile-to-Content Match (Oscar Rodriguez, VP Trust, March 2026)
+LinkedIn's VP confirmed profile authority directly impacts distribution:
 
-### 4. Hashtags Confirmed DEAD
-- Provide **zero discoverability** benefit
-- LinkedIn's NLP reads content semantically
+- Algorithm checks whether your profile confirms you're a credible source on what you're posting about
+- If your headline and about section don't match your content topic, reach suffers before anyone sees your post
+- Content from an established posting history on ONE topic carries more distribution weight than the same content from a newcomer
+
+### 3. Reshares Now Explicitly Ranked Higher
+Direct confirmation from LinkedIn VP Oscar Rodriguez:
+
+- Reshares (with added commentary) are one of the clearest signals of content value to the algorithm
+- A reshare puts your content in front of entirely new networks - the distribution effect compounds
+- **Optimizing for reshares requires different content** than optimizing for likes (see Section 7)
+
+### 4. Depth Score - Primary Ranking Signal (Feb 2026)
+- **Dwell time** (primary), **comment depth**, **saves**
+- Algorithm detects click bounces and penalizes them
+
+### 5. Link in Comments - Conflicting Data (Flagged)
+February 2026 sources reported "link in comments" is now penalized. An April 2026 source (Stackmatix) still recommends it as a valid workaround. **Treat as uncertain.** See Section 11 for full breakdown.
+
+### 6. Hashtags Confirmed DEAD
+- LinkedIn's NLP reads content semantically - hashtags provide zero benefit
 - May trigger spam filters if overused
 - **Best practice: Skip entirely**
 
-### 5. Emoji Limits Enforced
-- **0-5 emojis maximum** per post
-- More than 5 triggers spam detection
-- **1-3 optimal** for emphasis only
+### 7. Emoji Limits Enforced
+- **0-5 emojis maximum** per post - more than 5 triggers spam detection
 
 ---
 
-## 1) How the Algorithm Works (Four-Stage Process)
+## 1) How the Algorithm Works
 
-The LinkedIn algorithm operates through a sophisticated four-stage distribution system introduced in 2025-2026.
+LinkedIn's algorithm operates through a sequential distribution process, now powered by Generative Recommenders and Large Language Models (LLMs) as of March 2026.
 
-### Stage 1: Quality Assessment (Pre-Distribution)
+### Stage 1: Automated Quality Filter
 
 **Before showing your post to anyone**, LinkedIn scans for:
 - Spam patterns and engagement bait
-- AI-generated content patterns (30% less reach if detected)
+- AI-generated content patterns (-30% reach if detected)
 - Engagement pod participation (97% detection accuracy)
 - Excessive hashtags (5+ triggers penalties)
-- External link presence (60% reach penalty)
+- External link presence (-60% reach penalty)
+- Video/text mismatches (new March 2026 suppression)
 
-**Authenticity Score Check:** LinkedIn evaluates your account's human-like behavior patterns (scrolling, reading, watching videos) vs bot-like patterns (only logging in to post).
+**New March 2026:** Generative Recommenders analyze what your post is actually about, then match it against user profile data (industry, experience, skills, geography) and engagement history. If the algorithm can't clearly categorize your content, distribution suffers from the start.
 
-### Stage 2: Golden Hour Test (First 60-90 Minutes)
+**Authenticity Score:** LinkedIn evaluates account behavior patterns (scrolling, reading, watching) vs bot-like patterns (only logging in to post).
+
+### Stage 2: Golden Hour Test (First 30-90 Minutes)
 
 Algorithm shows your post to **2-5% of your network**.
 
-**What it measures:**
-- Dwell time (how long users read)
-- Comment quality (multi-sentence > one-word)
-- Saves and sends (new 2026 metrics)
+**What it measures (Depth Score):**
+- Dwell time (how long users read) - PRIMARY
+- Comment depth (multi-sentence > one-word)
+- Saves and sends
 - Profile clicks
-- Engagement velocity (how fast it happens)
+- Engagement velocity
 
-**Critical:** Strong signals in first 60-90 minutes = expanded distribution  
-Weak signals = post dies immediately
+**Critical:** Only 5% of posts that underperform in first hour recover to reach broader audiences.  
+Strong signals = expanded distribution. Weak signals = post dies.
 
 ### Stage 3: Cohort Learning & Targeting
 
-LinkedIn learns **WHO engages** with your content:
-- Job titles
-- Industries
-- Seniority levels
-- Company sizes
-- Geographic locations
+LinkedIn learns **WHO engages** - job titles, industries, seniority, company sizes, location - then targets similar profiles.
 
-Then targets **similar profiles** for expanded distribution.
+**Profile-to-content match matters here:** If your profile confirms you're a credible expert on the topic you're posting about, the algorithm has a stronger signal for who to show it to next. (Source: Oscar Rodriguez, VP Trust, LinkedIn, March 2026)
 
-**This is why topic consistency matters:** The algorithm needs to understand your niche to find your audience.
+**Topic consistency** trains this over time. A profile that has posted about one topic for 6+ months gets stronger distribution for new posts on that topic than a new poster saying the same thing.
 
-### Stage 4: Sustained Distribution (48-72 Hours)
+### Stage 4: Sustained Distribution (Days to Weeks)
 
-Posts maintaining high dwell time and quality engagement receive ongoing distribution for 2-3 weeks.
-
-**New in 2026:** Relevance > Recency  
+Posts maintaining high Depth Score receive ongoing distribution. **Relevance > Recency.**  
 Great posts can surface 2-3 weeks later to new relevant audiences.
 
 ---
@@ -147,6 +151,30 @@ Your **Social Selling Index (SSI)** score (0-100) **directly impacts visibility*
 
 **Target scores:** Good = 70+, Excellent = 80+  
 **Updates daily** - consistent activity compounds
+
+---
+
+## 2b) Profile-to-Content Match - NEW March 2026 Requirement
+
+**Source:** Oscar Rodriguez, VP Trust, LinkedIn (March 22, 2026 / Forbes)
+
+This is now a direct distribution signal. LinkedIn checks whether your profile confirms you're a credible source on what you're posting about.
+
+**How it works:**
+- Algorithm cross-references post topic against your headline, about section, experience, and posting history
+- If a stranger lands on your profile, they should immediately understand why you're the right person to be saying what you're saying
+- Generic or mismatched profiles cost you reach before anyone sees your post
+
+**Practical check:** Cover your name on your last 5 posts. Could someone else in your field have written them? If yes, that's the problem. Your content needs to reflect what only you could say, backed by what your profile says you actually do.
+
+**What to audit:**
+- Headline clearly states your expertise area
+- About section reinforces your posting niche
+- Last 10 posts are recognizably on-theme
+- Skills and experience align with content topic
+
+**New Member Interest Picker (March 2026):**  
+LinkedIn now asks new members to declare topic interests at signup. This creates a new discovery pathway - your content can now reach professionals who have never interacted with you but follow your topic area. **This increases the value of topic consistency** - the algorithm now has more "cold audience" signals to work with.
 
 ---
 
@@ -274,17 +302,23 @@ This represents a massive shift from previous years when the algorithm primarily
 
 ## 7) Engagement Hierarchy - What Actually Moves the Algorithm
 
-**2026 Updated Ranking:**
+**2026 Updated Ranking (includes March 2026 LinkedIn VP confirmation):**
 
-1. **Saves** (NEW) - strongest long-term value signal
-2. **Sends** (NEW) - high relevance indicator
-3. **Substantive comments** (25+ words) - 15x more valuable than likes
-4. **Shares with added context** - dual distribution channel
+1. **Saves** - strongest long-term value signal
+2. **Sends** - high relevance indicator (private shares)
+3. **Reshares with added commentary** - explicitly confirmed by LinkedIn VP as top signal; puts content in front of entirely new networks
+4. **Substantive comments** (25+ words) - 15x more valuable than likes
 5. **Comments** (general) - conversation signal
 6. **Profile visits** - qualified interest
-7. **Likes/reactions** - lowest algorithmic value
+7. **Direct reshares** (no commentary) - lower value than reshares with context
+8. **Likes/reactions** - lowest algorithmic value
 
-**Key insight:** Algorithm prioritizes signals that indicate genuine professional value, not vanity metrics.
+**Key distinction (March 2026, Oscar Rodriguez/LinkedIn VP):** Optimizing for reshares requires different content than optimizing for likes.
+
+- **Content optimized for likes:** Short, relatable, emotionally validating
+- **Content optimized for reshares:** Something the reader wants their audience to see - teaches something specific, makes the sharer look good, delivers a clear POV they couldn't have expressed as well themselves
+
+Build both deliberately. They are not the same strategy.
 
 ---
 
@@ -393,43 +427,39 @@ While **800-1,000 characters** often provide an optimal balance for broad reach,
 
 ---
 
-## 11) Links - 60% Penalty (ALL Placements - Feb 2026 Update)
+## 11) Links - 60% Penalty + Conflicting Data on Comments
 
-**CRITICAL UPDATE (February 2026):** The "link in first comment" workaround is **NOW ALSO PENALIZED**.
+**CONFIRMED:** Posts with external links in the **main post body** = **60% reach reduction**.
 
-**VERIFIED:** Posts with external links = **60% reach reduction** regardless of whether link is in post OR in comments.
+**Why:** LinkedIn wants to keep users on platform. External link = exit signal = suppression.
 
-### The Reality (Feb 2026):
-- External links in main post: **-60% reach**
-- External links in first comment: **-60% reach** (newly confirmed)
-- Saying "link in comments": **Detected as manipulative, additional penalty**
-- The algorithm now detects ANY link placement pattern and suppresses it
+### Conflicting Data on "Link in Comments" (Flag)
+- **February 2026 sources:** "Link in comments" workaround now also penalized, same 60% reduction
+- **April 2026 source (Stackmatix):** Still recommends "link in first comment" as a valid workaround
+- **March 2026 (LinkedIn official):** No specific mention either way
 
-**Why:** LinkedIn wants to keep users on platform. External link = exit signal = suppression, regardless of where you put it.
+**Practical position:** Treat as uncertain. If reach is the priority, avoid links entirely. If you must share a link, placing it in the first comment may or may not help - the data is genuinely split right now.
 
-### ✅ Best Practice (2026)
-- **Create standalone valuable content** (no links needed)
-- Post must deliver complete value without leaving LinkedIn
-- Remove link preview cards if you must include links
-- **NEVER say "link in comments"** (detected and penalized)
-- **NEVER mention links at all** (main post OR comments both penalized)
+### ✅ Best Practice (safest approach)
+- **Create standalone valuable content** that doesn't need a link
+- Post delivers complete value without leaving LinkedIn
 - Make content valuable enough users DM you for resources
+- Never mention or reference links in post copy
 
-### ✅ If Links Are Absolutely Required
-- Put link directly in post (comment doesn't help anymore)
-- Remove preview card
-- Deliver value FIRST before link
-- Accept 60% reach reduction as the cost
+### ✅ If Links Are Required
+- Put link in first comment (may help, data split)
+- Remove link preview card from the post
+- Deliver value FIRST, no mention of the link
+- Accept potential reach reduction regardless of placement
 - Focus on conversion, not reach
 
 ### ❌ Don't
-- Say "link in comments" (detected)
-- Put link in first comment expecting better reach (doesn't work)
-- Mention links anywhere
-- Expect any workarounds to beat the algorithm
+- Include links in main post body (confirmed -60%)
+- Say "link in comments" or reference the link anywhere in post copy
+- Expect any placement to fully bypass the penalty
 - Use link shorteners (still detected)
 
-**February 2026 confirmation:** Multiple sources verify the "link in comments" strategy no longer works. Algorithm detects this pattern and applies same 60% penalty.
+**Bottom line:** Safest play is no links at all. If you need the traffic, first comment with no mention in post copy is the least-penalized option currently available, though this is in dispute as of April 2026.
 
 ---
 
@@ -694,40 +724,37 @@ While **800-1,000 characters** often provide an optimal balance for broad reach,
 
 ## 21) Content Mix Ratios - What to Post
 
-**For B2B Security/Podcast Content:**
-
 ### Educational How-To (30-40%)
 - Frameworks and mental models
 - Step-by-step processes
 - Checklists and templates
-- "How attackers think" insights
+- Contrarian takes on conventional wisdom
 
 ### Industry Commentary (25-30%)
-- OWASP/standards discussion
-- Supply chain case studies
-- Emerging threats analysis
-- Contrarian security takes
+- Standards and emerging practices
+- Case studies and post-mortems
+- Emerging trends analysis
+- Data-backed observations
 
 ### Personal Stories/Lessons (20-25%)
 - Client scenarios (anonymized)
-- Conference insights
-- Team challenges overcome
-- Behind-the-scenes podcast production
+- Conference and event insights
+- Challenges overcome with specific lessons
+- Behind-the-scenes professional moments
 
 ### Company Updates (10-15%)
 - Team milestones
-- Product launches
 - Speaking engagements
-- Podcast episode releases
+- New projects or launches
 
 ### Engagement Posts (5-10%)
-- Specific questions
-- Polls about industry trends
-- Debate topics
+- Specific, answerable questions
+- Polls on industry trends
+- Debate topics with a clear stake
 
 **What to Avoid:**
-- Fear-mongering
-- Generic security tips
+- Fear-mongering without solutions
+- Generic advice any AI could generate
 - Jargon without context
 - Pure self-promotion
 
@@ -774,37 +801,27 @@ While **800-1,000 characters** often provide an optimal balance for broad reach,
 
 ## 24) Personal vs Company Page - THE Biggest 2026 Shift
 
-**CRITICAL DATA (GrowLeads, Feb 2026):**
+**CRITICAL DATA:**
 
 - **Company pages: 5% of user feed allocation**
 - **Personal profiles: 65% of content consumption**
 - **Employee reshares: 561% further reach than company posts**
 - **Organic company reach down 60-66%** (2024-2026)
-- **CEO content: 4x more engagement** than average posts
+- **Executive/founder content: 4x more engagement** than average posts
 
 ### ✅ Do
-- **Build personal brand as primary strategy** (Cameron's profile)
-- Post from personal profile, not podcast page
-- Enable employee advocacy
+- **Build personal brand as primary strategy**
+- Post from personal profile, not company page
+- Enable employee advocacy programs
 - Tag company page when relevant
-- Use company page for:
-  - Job postings
-  - Company news/updates
-  - Supporting employee content
+- Use company page for: job postings, company news, supporting employee content
 
 ### ❌ Don't
 - Rely on company page for content distribution
-- Expect company posts to reach audiences
+- Expect company posts to reach audiences organically
 - Waste effort on company page organic content
-- Miss the structural shift
 
-**For "Coffee, Chaos & ProdSec":**
-- Post from Cameron's personal profile (primary)
-- Tag Kurt (co-host) for reciprocal engagement
-- Company page for: job posts, sponsor updates, episode archive
-- Employee advocacy: team members reshare
-
-**This is not optional in 2026. It's structural necessity.**
+**This is not a tactical preference. It's a structural reality.**
 
 ---
 
@@ -854,26 +871,26 @@ While **800-1,000 characters** often provide an optimal balance for broad reach,
 
 ## Key Takeaways for 2026
 
-1. **Personal profiles win** - 65% vs 5% for company pages
-2. **Topic consistency critical** - Post about ONE niche (AppSec/DevSecOps)
-3. **Comments ranked #1** - 3x more reach than likes, 2-3x more 2nd/3rd degree reach
-4. **Dwell time > likes** - 30-45 second read time, 7-second mobile hook
-5. **Golden Hour determines 70%** - Be present for 60-90 minutes
-6. **Carousels win formats** - 6.6% engagement (highest)
-7. **External links = -60% reach** - Put in comments, don't announce it
-8. **Single images dead** - 30% worse than text (reversal from 2024)
-9. **Videos under 30 sec** - 200% higher completion, vertical format
-10. **SSI score matters** - Topic consistency, expertise signals
-11. **50-70 connection cap** - Hard limit, 5x restriction rates for automation
-12. **Hashtags diminished** - 2-5 max or skip, algorithm reads full text
-13. **AI content suppressed** - 30% less reach, add personal voice
-14. **Posts live 2-3 weeks** - Relevance > recency, evergreen wins
-15. **New metrics matter** - Saves, sends, profile visits > likes
-16. **Authenticity scores** - Hidden ranking, must engage like human
-17. **3-5 posts per week** - 24hr spacing minimum, quality over volume
-18. **Mobile-first everything** - 72% of users, 7-sec scan, 3.7-sec for ads
-19. **Expertise > engagement** - 50% reach drop without topic authority
-20. **Respond within 15 min** - 90% algorithmic boost
+1. **Profile must match content niche** - Algorithm checks your credibility before distributing (March 2026, LinkedIn VP)
+2. **Generative Recommenders + LLMs rank content** - Topic clarity matters more than ever
+3. **Reshares > likes** - Optimize content to be worth sharing to others' networks
+4. **Depth Score = primary signal** - Dwell time, comment depth, saves
+5. **Document posts win** - 6.60-40.5% engagement (278% more than video)
+6. **Personal profiles dominate** - 65% vs 5% for company pages
+7. **Topic consistency compounds** - 6+ months on one topic = distribution advantage
+8. **Golden Hour determines most of reach** - Be present 30-90 minutes after posting
+9. **Comments ranked #1 visible signal** - 3x more reach than likes
+10. **Hashtags are dead** - Skip entirely, NLP reads content directly
+11. **Emojis: 0-5 max** - More than 5 triggers spam detection
+12. **External links in post body = -60% reach** - Confirmed. Comment placement still disputed
+13. **Single images underperform text** - 30% worse (reversal from 2024)
+14. **Video: 30-90 sec, vertical, captions** - Completion rate tracked, not just views
+15. **AI content suppressed** - -30% reach, add personal voice and specific examples
+16. **Posts live 2-3 weeks** - Relevance > recency
+17. **3-5 posts per week** - 24hr spacing minimum, one valuable post > five mediocre
+18. **Engagement bait actively suppressed** - "Comment YES", topic/visual mismatches
+19. **Automation detected and penalized** - Pods, browser extensions, fake engagement
+20. **New member Interest Picker** - New discovery pathway for topic-consistent creators
 
 ---
 
@@ -1038,42 +1055,38 @@ While **800-1,000 characters** often provide an optimal balance for broad reach,
 
 ---
 
-## Sources Analyzed (2026 Guide)
+## Sources Analyzed
 
-**Most Recent (February 2026):**
-1. **Dataslayer - "LinkedIn Algorithm February 2026: What's Working Now" (Feb 12, 2026)**
-   - Document posts: 6.60-40.5% engagement benchmarks
-   - "Link in comments" now penalized confirmation
-2. **TryOrdinal - "How LinkedIn's Algorithm Works in 2026"**
-   - Depth Score discovery and components
-   - Comment depth vs count metrics
-3. **Kanbox - "Understanding LinkedIn Algorithm 2026" (Feb 5, 2026)**
-   - Updated algorithm mechanics
-   - Content quality prioritization
-4. Linkboost - "Balancing Automation & Personal Touch" (Feb 5, 2026)
-5. GrowLeads - "Text vs Video Strategy Exposed" (Dec 20, 2025)
+**April 2026:**
+1. Stackmatix - "How the LinkedIn Algorithm Works: A Data-Driven Breakdown" (April 6, 2026)
+
+**March 2026:**
+2. **Svenja Maltzahn / LinkedIn Official (Tim Jurka)** - "LinkedIn's March 2026 Algorithm Update" (March 15, 2026) - Generative Recommenders, LLMs, engagement pod enforcement, engagement bait suppression, Interest Picker
+3. **Forbes / Oscar Rodriguez (VP Trust, LinkedIn)** - "LinkedIn Just Changed How Content Goes Viral" (March 22, 2026) - Profile-to-content match, reshare ranking, verification, consistency
+
+**February 2026:**
+4. Dataslayer - "LinkedIn Algorithm February 2026: What's Working Now" (Feb 12, 2026)
+5. TryOrdinal - "How LinkedIn's Algorithm Works in 2026"
+6. Kanbox - "Understanding LinkedIn Algorithm 2026" (Feb 5, 2026)
+7. Linkboost - "Balancing Automation & Personal Touch" (Feb 5, 2026)
 
 **January 2026:**
-6. **Clicknara - "LinkedIn Algorithm Update January 2026" (Jan 3, 2026)**
-   - Terminal content penalty
-   - Multimodal LLM embedders
-7. **TechCrunch - "What's Going On With LinkedIn's Algo" (Dec 13, 2025)**
-   - LLM implementation by VP Engineering
-   - Algorithm behavior changes
+8. Clicknara - "LinkedIn Algorithm Update January 2026" (Jan 3, 2026)
+9. TechCrunch - "What's Going On With LinkedIn's Algo" (Dec 13, 2025)
 
 **November-December 2025:**
-8. River Blog - "What Actually Works Right Now" (300 posts tested, Nov 27, 2025)
-9. SocialBee - "The LinkedIn Algorithm Explained" (Dec 18, 2025)
-10. Speedwork Social - "How to Post the Right Way" (Dec 3, 2025)
-11. Agorapulse - "What Has Changed" (Sep 3, 2025)
-12. SourceGeek - "How the Algorithm Works" (2026 Update)
+10. River Blog - "What Actually Works Right Now" (300 posts tested, Nov 27, 2025)
+11. SocialBee - "The LinkedIn Algorithm Explained" (Dec 18, 2025)
+12. Speedwork Social - "How to Post the Right Way" (Dec 3, 2025)
+13. Agorapulse - "What Has Changed" (Sep 3, 2025)
+14. SourceGeek - "How the Algorithm Works" (2026 Update)
+15. GrowLeads - "Text vs Video Strategy Exposed" (Dec 20, 2025)
 
-**Additional sources:**
-13. MeetEdgar, Exxar Digital, Vertebrae Social, Chad Wyatt, Closely, Growth Terminal, Adobe Express
+**Additional:** MeetEdgar, Exxar Digital, Vertebrae Social, Chad Wyatt, Closely, Growth Terminal, Adobe Express (Nov-Dec 2025)
 
-**Plus earlier research:** Richard van der Blom (1.8M posts), AuthoredUp (621K posts), Buffer (2M posts)
+**Earlier research:** Richard van der Blom (1.8M posts), AuthoredUp (621K posts), Buffer (2M posts)
 
-**Total:** 17+ sources analyzed Nov 2025 - Feb 2026, cross-referenced for verification
+**Total:** 20+ sources, Nov 2025 - April 2026
 
 ---
 
@@ -1261,6 +1274,6 @@ The algorithm rewards that every time.
 
 ---
 
-*Last Updated: February 7, 2026*  
-*Based on: 14+ sources, Nov 2025 - Feb 2026*  
-*Version: 2026.1 (Complete Integration)*
+*Last Updated: April 20, 2026*  
+*Based on: 20+ sources, Nov 2025 - April 2026*  
+*Version: 2026.3 (April Update)*
