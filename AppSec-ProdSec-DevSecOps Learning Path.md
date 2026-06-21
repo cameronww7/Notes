@@ -338,7 +338,7 @@ Stay current with security news and practical advice:
 
 Breaking into AppSec isn't about collecting certifications. It's about building practical skills, understanding how developers work, and being able to secure software at every stage of the SDLC.
 
-The people who thrive in this field share a few traits: they're curious, they don't stop at "it's vulnerable" -- they understand why, and they can explain it to a developer in a way that ctually gets it fixed. They know how to prioritize when everything feels urgent. They build relationships with engineering teams instead of policing them. And they stay humble, because this field moves fast and yesterday's knowledge goes stale quickly.
+The people who thrive in this field share a few traits: they're curious, they don't stop at "it's vulnerable" -- they understand why, and they can explain it to a developer in a way that actually gets it fixed. They know how to prioritize when everything feels urgent. They build relationships with engineering teams instead of policing them. And they stay humble, because this field moves fast and yesterday's knowledge goes stale quickly.
 
 You don't need to know everything to get started. You need to know enough to be useful, be honest about your gaps, and show that you're actively closing them. Hiring managers aren't looking for perfect candidates -- they're looking for people who can learn, contribute, and grow without constant hand-holding.
 
