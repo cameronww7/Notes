@@ -288,6 +288,7 @@ Getting into security isn't just about learning technical skills. It's also abou
 ## Podcasts to Tune into
 - Coffee, Chaos and ProdSec: https://linktr.ee/coffeechaosprodsec
 - Absolute AppSec: https://absoluteappsec.com/
+- The OpenSourceMalware Show: https://podcast.opensourcemalware.com/
 - Boring AppSec Podcast: https://www.boringappsec.com/s/podcast
 - Application Security Weekly: https://www.scworld.com/podcast-show/application-security-weekly
 - The Application Security Podcast: https://appsec.buzzsprout.com/
