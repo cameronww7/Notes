@@ -324,6 +324,8 @@ Stay current with security news and practical advice:
   - https://youtube.com/@vulnerableu
 - LowLevelTV: Videos about cyber security + software security
   - https://www.youtube.com/@LowLevelTV
+- Unsupervised Learning: Building AI that upgrades humans and companies.
+  - https://www.youtube.com/@unsupervised-learning
 
 ## Recommended Books
 - "The Code Book" by Simon Singh: Understanding cryptography and its history
