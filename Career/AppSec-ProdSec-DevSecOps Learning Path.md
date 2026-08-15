@@ -103,6 +103,10 @@ Here's the list with names and context added:
 
 Getting into security isn't just about learning technical skills. It's also about building relationships with other practitioners in your area. Look up local cybersecurity meetups on Meetup.com, search for security events on Eventbrite, and find conferences near you. This will take some Googling, but search for things like "OWASP chapter [your city]", "cybersecurity meetups [your city]", and "security conferences [your state/region]". These events are invaluable for networking, learning what skills are in demand locally, and often hearing about job opportunities before they're posted. Show up, introduce yourself, and don't be afraid to tell people you're looking to break into the field. The security community is generally welcoming to newcomers who show genuine interest.
 
+* **Hacker Tracker**: an app for browsing schedules and sessions at security conferences like DEF CON, BSides, and OWASP events, useful for planning which talks and networking opportunities to hit at a con
+   * https://hackertracker.app/
+* **InfoSecMap**: a searchable map and directory of infosec conferences, CFPs, sponsorship opportunities, and events worldwide, useful for finding networking events happening near you or planning travel around the security conference circuit
+   * https://infosecmap.com/
 
 
 ## Podcasts to Tune into
