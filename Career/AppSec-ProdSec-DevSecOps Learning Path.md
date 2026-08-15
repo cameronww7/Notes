@@ -7,7 +7,7 @@ So you want to break into AppSec, DevSecOps, or Product Security. This isn't a g
 
 I was a developer first. I made the transition into security and now run a global AppSec and Product Security team. This is what I hire for, what I mentor people toward, and what I expect from the engineers on my team.
 
-Whether you're coming from software engineering, IT, sysadmin, or starting fresh, this path is designed to get you job-ready with skills that translate directly into the work -- not just the interview.
+Whether you're coming from software engineering, IT, sysadmin, or starting fresh, this path is designed to get you job-ready with skills that translate directly into the work, not just the interview.
 
 ## How AI Is Changing Everything
 
@@ -65,37 +65,37 @@ Learning security is about building mental models, not memorizing facts. The goa
 Here's the list with names and context added:
 
 ## People to Follow on LinkedIn to Stay Up To Date
-- **Tanya Janca** -- Founder of We Hack Purple, author of "Alice and Bob Learn Application Security", one of the most active AppSec educators online
+- **Tanya Janca**: Founder of We Hack Purple, author of "Alice and Bob Learn Application Security", one of the most active AppSec educators online
   https://www.linkedin.com/in/tanya-janca/
-- **Jim Manico** -- OWASP contributor, AppSec educator, frequent conference speaker on secure coding and developer security training
+- **Jim Manico**: OWASP contributor, AppSec educator, frequent conference speaker on secure coding and developer security training
   https://www.linkedin.com/in/jmanico/
-- **Ken Johnson** (cktricky) -- Co-founder & CTO of DryRun Security, co-host of the Absolute AppSec podcast, 18+ years breaking and building web apps
+- **Ken Johnson** (cktricky): Co-founder & CTO of DryRun Security, co-host of the Absolute AppSec podcast, 18+ years breaking and building web apps
   https://www.linkedin.com/in/cktricky/
-- **Cameron Walters** -- Director of Application Security & Security Engineering, co-founder of the OWASP Secure Pipeline Verification Standard (SPVS), co-host of Coffee, Chaos & ProdSec
+- **Cameron Walters**: Director of Application Security & Security Engineering, co-founder of the OWASP Secure Pipeline Verification Standard (SPVS), co-host of Coffee, Chaos & ProdSec
   https://www.linkedin.com/in/cameronww7/
-- **Clint Gibler** -- Founder of tl;dr sec, one of the best curated security newsletters available, strong signal-to-noise ratio on AppSec trends
+- **Clint Gibler**: Founder of tl;dr sec, one of the best curated security newsletters available, strong signal-to-noise ratio on AppSec trends
   https://www.linkedin.com/in/clintgibler/
-- **Chris Hughes** -- Resilient Cyber, author and analyst focused on software supply chain security, vulnerability management, and cyber risk
+- **Chris Hughes**: Resilient Cyber, author and analyst focused on software supply chain security, vulnerability management, and cyber risk
   https://www.linkedin.com/in/resilientcyber/
-- **Daniel Miessler** -- Security researcher and writer, runs the Unsupervised Learning newsletter, strong voice on AI and security convergence
+- **Daniel Miessler**: Security researcher and writer, runs the Unsupervised Learning newsletter, strong voice on AI and security convergence
   https://www.linkedin.com/in/danielmiessler/
-- **Matt Johansen** -- Practitioner-focused security voice, runs the Thoughtful Security newsletter, writes about real-world AppSec and vulnerability management
+- **Matt Johansen**: Practitioner-focused security voice, runs the Thoughtful Security newsletter, writes about real-world AppSec and vulnerability management
   https://www.linkedin.com/in/matthewjohansen/
-- **Anshuman Bhartiya** -- Staff Security Engineer at Lyft, co-host of The Boring AppSec Podcast, strong practitioner voice on AI and AppSec
+- **Anshuman Bhartiya**: Staff Security Engineer at Lyft, co-host of The Boring AppSec Podcast, strong practitioner voice on AI and AppSec
   https://www.linkedin.com/in/anshumanbhartiya/
-- **Derek Fisher** -- Author of "The Product Security Handbook", AppSec and ProdSec leader focused on building security programs at scale
+- **Derek Fisher**: Author of "The Product Security Handbook", AppSec and ProdSec leader focused on building security programs at scale
   https://www.linkedin.com/in/derek-fisher-sec-arch/
-- **Adam Shostack** -- Threat modeling expert, author of "Threat Modeling: Designing for Security", one of the most referenced voices in the field
+- **Adam Shostack**: Threat modeling expert, author of "Threat Modeling: Designing for Security", one of the most referenced voices in the field
   https://www.linkedin.com/in/shostack/
-- **Patrick Garrity** -- Security researcher focused on vulnerability data and exploitation trends, consistently useful signal on what's actually getting exploited
+- **Patrick Garrity**: Security researcher focused on vulnerability data and exploitation trends, consistently useful signal on what's actually getting exploited
   https://www.linkedin.com/in/patrickmgarrity/
-- **Katie Moussouris** -- Founder of Luta Security, pioneered bug bounty and vulnerability disclosure policy, key voice on responsible disclosure and CVD
+- **Katie Moussouris**: Founder of Luta Security, pioneered bug bounty and vulnerability disclosure policy, key voice on responsible disclosure and CVD
   https://www.linkedin.com/in/kmoussouris/
-- **Dan Lorenc** -- Co-founder & CEO of Chainguard, software supply chain security and open source security, deep expertise in SLSA and sigstore
+- **Dan Lorenc**: Co-founder & CEO of Chainguard, software supply chain security and open source security, deep expertise in SLSA and sigstore
   https://www.linkedin.com/in/danlorenc/
-- **Caleb Sima** -- AI security leader and advisor, former CSO, one of the more credible voices on AI security in production environments
+- **Caleb Sima**: AI security leader and advisor, former CSO, one of the more credible voices on AI security in production environments
   https://www.linkedin.com/in/calebsima/
-- **Codrut Andrei** -- Director of Product Security, AppSec and Secure SDLC practitioner, active mentor helping people break into the field
+- **Codrut Andrei**: Director of Product Security, AppSec and Secure SDLC practitioner, active mentor helping people break into the field
   https://www.linkedin.com/in/codrut-andrei/
 
 ## Local Networking
@@ -212,21 +212,21 @@ These aren't just reading material. They're the standards you'll reference daily
 - Follow up with cloud security-specific training (Youtube, Blogs, just search Cloud Security)
 - Modern AppSec lives in the cloud. You need to understand how cloud environments work. 
 
-## Learn to Code (Yes, Really) (Or Maybe not...)
+## Learn to Code (Yes, Really) (Or Maybe not...) (These could also be AI Projects)
 
 - Caveat: I wanted to add a caveat. In the last 9 months things changed with AI. In 2025, AI was useful, but I'd say it was way more debatable. In 2026, AI, especially around coding, has really exploded in a positive way. AppSec automation is where you'll end up coding, and with AI, that skill could be lifted and shifted to AI. Now that doesn't mean you shouldn't know how to code, but the skill is being devalued in favor of AI coding and AI usability skills.
 
 You can't secure what you don't understand. There are lots of free courses on YouTube from different channels such as FreeCodeCamp, and Udemy offers cheap courses if you want more structured learning. Learning how to code, understand code, and recognize what languages are used in different parts of software is absolutely key. Take full stack programming courses and learn Python or Go for automation/API-to-API scripts. You're going to talk to developers and work with developers every single day. You need to speak their language or you won't be effective.
-- You will need to understand how code works -- not just syntax, but control flow, how data moves through a function, how inputs become outputs, and where things can go wrong. You're looking for vulnerabilities in code every day; you can't spot them if you can't read the code.
-- Understand how 3rd party libraries (OSS) are packaged and pulled into code -- how package managers like npm, pip, Maven, and Go modules work, what a dependency tree looks like, and why transitive dependencies matter. Most vulnerabilities in modern apps aren't in custom code, they're in the libraries it uses.
-- How software is built, common design patterns -- understand MVC, microservices, monoliths, and how data flows between layers. Know what an API gateway does, what a service mesh is, and why a frontend talking directly to a database is a problem. Security decisions map directly to architecture decisions.
-- How to read someone else's code -- writing code is one skill, reading unfamiliar codebases is another. In AppSec you will rarely write the code you're reviewing. Practice navigating large repos, tracing data from entry points to sinks, and identifying where user input is handled. This is the core of manual code review.
-- How web frameworks handle requests -- understand the request/response lifecycle in frameworks like Express, Django, Spring, or Rails. Know what middleware does, how routing works, and where user input enters the application. Most injection vulnerabilities live in the gap between input handling and data processing.
-- How authentication and sessions are implemented -- not just how OAuth or JWTs work conceptually, but how developers actually wire them into an app. Where tokens are stored, how session state is managed, and where developers commonly cut corners under deadline pressure.
-- How secrets and environment variables are used -- understand how apps consume API keys, database credentials, and config values at runtime. Know the difference between how secrets should be managed versus how they often are in practice, which is hardcoded in source or committed in .env files.
-- How errors are handled -- stack traces, exception handling, logging. Poorly handled errors leak internal details. Over-verbose logging captures sensitive data. This shows up constantly in code review and is easy to miss if you don't know what you're looking for.
-- How serialization and deserialization works -- data gets converted between formats constantly: JSON, XML, binary, protocol buffers. Understand how an app parses external input and why deserialization of untrusted data is one of the more dangerous things code can do.
-- How version control and branching models work -- understand Git beyond basic commits. Know how feature branches, PRs, and merge strategies work because code review in AppSec happens inside that workflow. If you can't navigate a PR diff or trace a change back through history, you're slower than you need to be.
+- You will need to understand how code works, not just syntax, but control flow, how data moves through a function, how inputs become outputs, and where things can go wrong. You're looking for vulnerabilities in code every day; you can't spot them if you can't read the code.
+- Understand how 3rd party libraries (OSS) are packaged and pulled into code, how package managers like npm, pip, Maven, and Go modules work, what a dependency tree looks like, and why transitive dependencies matter. Most vulnerabilities in modern apps aren't in custom code, they're in the libraries it uses.
+- How software is built, common design patterns, understand MVC, microservices, monoliths, and how data flows between layers. Know what an API gateway does, what a service mesh is, and why a frontend talking directly to a database is a problem. Security decisions map directly to architecture decisions.
+- How to read someone else's code, writing code is one skill, reading unfamiliar codebases is another. In AppSec you will rarely write the code you're reviewing. Practice navigating large repos, tracing data from entry points to sinks, and identifying where user input is handled. This is the core of manual code review.
+- How web frameworks handle requests, understand the request/response lifecycle in frameworks like Express, Django, Spring, or Rails. Know what middleware does, how routing works, and where user input enters the application. Most injection vulnerabilities live in the gap between input handling and data processing.
+- How authentication and sessions are implemented, not just how OAuth or JWTs work conceptually, but how developers actually wire them into an app. Where tokens are stored, how session state is managed, and where developers commonly cut corners under deadline pressure.
+- How secrets and environment variables are used, understand how apps consume API keys, database credentials, and config values at runtime. Know the difference between how secrets should be managed versus how they often are in practice, which is hardcoded in source or committed in .env files.
+- How errors are handled, stack traces, exception handling, logging. Poorly handled errors leak internal details. Over-verbose logging captures sensitive data. This shows up constantly in code review and is easy to miss if you don't know what you're looking for.
+- How serialization and deserialization works, data gets converted between formats constantly: JSON, XML, binary, protocol buffers. Understand how an app parses external input and why deserialization of untrusted data is one of the more dangerous things code can do.
+- How version control and branching models work, understand Git beyond basic commits. Know how feature branches, PRs, and merge strategies work because code review in AppSec happens inside that workflow. If you can't navigate a PR diff or trace a change back through history, you're slower than you need to be.
 
 ### Read Code Like an Attacker
 
@@ -268,7 +268,7 @@ AI security is exploding right now. Get ahead of it:
 - Reference the OWASP Top 10 for LLMs when working with AI/ML applications
 
 ### Follow Paolo, as he keeps posting free courses to take and learn on AI, look over his posts
-- **Paolo Perrone** -- AI/ML content and audience building, useful follow for LinkedIn content strategy and staying current on AI trends
+- **Paolo Perrone**: AI/ML content and audience building, useful follow for LinkedIn content strategy and staying current on AI trends
   https://www.linkedin.com/in/paoloperrone/
 
 ### AI Coding/Agents++
@@ -339,7 +339,7 @@ Alternatively, build a similar home lab environment. Document what you build. Th
 
 Learning the basics of hacking can really contextualize vulnerabilities and is critical for replicating them. Start with the free TCM Security Practical Ethical Hacking course on YouTube: https://youtube.com/playlist?list=PLLKT__MCUeixqHJ1TRqrHsEd6_EdEvo47&si=xxMBSn3Eae4BJH6C
 
-For web application security specifically, work through PortSwigger Web Security Academy (free): https://portswigger.net/web-security -- it covers every major web vulnerability class hands-on in a browser-based lab environment. If you're going into AppSec this is one of the most directly applicable resources available. Most of the vulnerabilities you will find in code reviews and DAST results map directly to topics covered here.
+For web application security specifically, work through PortSwigger Web Security Academy (free): https://portswigger.net/web-security, it covers every major web vulnerability class hands-on in a browser-based lab environment. If you're going into AppSec this is one of the most directly applicable resources available. Most of the vulnerabilities you will find in code reviews and DAST results map directly to topics covered here.
 
 Then consider taking the Certified Penetration Testing Specialist (CPTS) from HackTheBox or the TCM PJPT or PNPT. Understanding how attackers think and operate makes you exponentially better at defense.
 
@@ -402,10 +402,10 @@ credibility with senior leadership.
 
 Breaking into AppSec isn't about collecting certifications. It's about building practical skills, understanding how developers work, and being able to secure software at every stage of the SDLC.
 
-The people who thrive in this field share a few traits: they're curious, they don't stop at "it's vulnerable" -- they understand why, and they can explain it to a developer in a way that actually gets it fixed. They know how to prioritize when everything feels urgent. They build relationships with engineering teams instead of policing them. And they stay humble, because this field moves fast and yesterday's knowledge goes stale quickly.
+The people who thrive in this field share a few traits: they're curious, they don't stop at "it's vulnerable", they understand why, and they can explain it to a developer in a way that actually gets it fixed. They know how to prioritize when everything feels urgent. They build relationships with engineering teams instead of policing them. And they stay humble, because this field moves fast and yesterday's knowledge goes stale quickly.
 
-You don't need to know everything to get started. You need to know enough to be useful, be honest about your gaps, and show that you're actively closing them. Hiring managers aren't looking for perfect candidates -- they're looking for people who can learn, contribute, and grow without constant hand-holding.
+You don't need to know everything to get started. You need to know enough to be useful, be honest about your gaps, and show that you're actively closing them. Hiring managers aren't looking for perfect candidates, they're looking for people who can learn, contribute, and grow without constant hand-holding.
 
-Build things. Break things. Document what you learn. Write about it, even if the audience is small. Contribute to open source projects. Show up to local meetups. Ask questions publicly. That body of work -- your GitHub, your blog, your community presence -- is often more compelling than any certification on your resume.
+Build things. Break things. Document what you learn. Write about it, even if the audience is small. Contribute to open source projects. Show up to local meetups. Ask questions publicly. That body of work, your GitHub, your blog, your community presence, is often more compelling than any certification on your resume.
 
 The security community is more accessible than it looks from the outside. Most practitioners remember what it felt like to be starting out and are willing to help people who show genuine effort. Put in the work, be consistent, and the door will open.
