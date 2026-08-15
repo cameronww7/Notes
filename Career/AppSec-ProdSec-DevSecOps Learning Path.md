@@ -1,12 +1,43 @@
 # Application Security/Product Security/DevSecOps Learning Path
 
 ## Why Read This?
+- Cavat: This is my opinion, and like opinions everyone has one, what I have outlined could 100% conflict with someone elses, keep that in mind, the path is yours and unique and this is a guide, nothing set it stone, I just hope it helps in your path to success.
 
 So you want to break into AppSec, DevSecOps, or Product Security. This isn't a generic list of certifications to collect or courses to finish. It's a practical roadmap built from real experience.
 
 I was a developer first. I made the transition into security and now run a global AppSec and Product Security team. This is what I hire for, what I mentor people toward, and what I expect from the engineers on my team.
 
 Whether you're coming from software engineering, IT, sysadmin, or starting fresh, this path is designed to get you job-ready with skills that translate directly into the work -- not just the interview.
+
+## How AI Is Changing Everything
+
+We use to be required to code. We use to focus on implementing tools, picking a scanner, tuning it, wiring it into the pipeline, calling it a program. That world is closing out. Now the Build vs Buy decision is getting harder every quarter, not easier, because buying a vendor tool means betting that the vendor's roadmap keeps up with a landscape that's rewriting itself every few months, and half the time it doesn't, so you end up building anyway just to fill the gap they left.
+
+From the ProdSec side we are shifting up the stack. We can now run multiple agents at once, one building automation for a specific workflow, one analyzing code for vulns across a whole repo, one reviewing a design doc from product engineering before a line of code gets written, and none of that required a human staring at a screen doing it manually. A few examples of what that actually looks like in practice:
+
+- An agent that pulls every new PR, runs a vuln scan, triages the findings against known false-positive patterns from your codebase, and only surfaces the ones that actually need a human
+- An agent that reads a design doc dropped in a shared drive, flags missing threat model sections, and drafts the questions a security architect would normally ask in review
+- An agent orchestrating three other agents: one doing recon on a new service, one checking it against your SPVS-style pipeline controls, one writing the remediation ticket with context already filled in
+
+That's the shift. It's not "AI helps you scan faster." It's AI doing the work that used to define the job.
+
+Here's what doesn't change though, and this is the part people get wrong when they think AI means the fundamentals stop mattering: the core skills we've needed for the last 15 years are still highly relevant, arguably more relevant, because someone has to validate what the AI produces, and you can't validate what you don't understand. An agent tells you a finding is a false positive, you need to know enough about how that class of vuln actually works to know if the agent is right or if it's pattern matching its way to a wrong answer. An agent writes a remediation, you need the foundational knowledge to know if that remediation actually closes the gap or just makes the finding disappear from the dashboard. Knowing this core, foundational information is what lets you trust or distrust the output in front of you, instead of just rubber stamping whatever the agent hands back because it sounds confident.
+
+So as ProdSec folk we have to rethink our role, and rethink it fast, because the org chart hasn't caught up to what the work actually looks like now. We have to shift up the stack. We have to understand orchestration, how to build and run fleets of agents, how to chain them, how to know when one agent's output should trigger another agent instead of a ticket. We have to start thinking and learning architecture, real architecture, because when everything downstream is agentic, the thing that actually matters is whether you designed the system correctly upstream. Get the architecture wrong and no amount of agent output fixes it.
+
+The highly technical hands-on skills, pen testing, POC'ing a single vuln by hand, walking through an exploit chain manually, that's no longer the differentiator it used to be as a day-to-day task. It can be shifted off to an agent that does it faster and more consistently than a person grinding through it at 6pm before a release. But you still need to know how to do it yourself, because that's the only way you know when the agent did it wrong. The skill doesn't disappear, it moves from something you execute every day to something you hold as ground truth so you can check the machine's work.
+
+This is exactly why it's going to be hard for new folks coming into ProdSec right now. You need the core and the basics, how injection actually works, how auth actually breaks, how a pipeline actually gets compromised, the same foundation people have needed for 15 years. But now you also have to layer AI fluency on top of that, orchestration, prompt design, knowing where models fail, and you have to build both at once instead of getting years to master the fundamentals before AI became part of the job. It's not AI instead of the basics. It's AI on top of the basics, and if the basics aren't there, the AI layer has nothing solid to stand on.
+
+A few other threads worth pulling into this section as you build it out:
+
+- **Vendor tooling is becoming a moving target.** A tool you evaluated six months ago may already be behind what an internally built agent can do, because the vendor's release cycle can't match the pace of model improvement. That changes how Build vs Buy evaluations should even be scored.
+- **The job is becoming orchestration and validation, not execution.** You're not the one running the scan, you're the one deciding what the scan should be, what "good" looks like, and catching it when an agent's output is confidently wrong, which brings it right back to needing the fundamentals.
+- **New skill floor for ProdSec: prompt design, agent chaining, and knowing model failure modes.** Just like the old floor was knowing how a SAST tool produces false positives, the new floor is knowing how an LLM hallucinates a vuln that isn't there or misses one that is, on top of the old floor, not instead of it.
+- **Headcount math is changing.** One ProdSec engineer running four agents can cover ground that used to take a team of four. That's good for scale, it's uncomfortable for career paths that assumed you'd manage humans to grow.
+---
+---
+# Application Security/Product Security/DevSecOps Learning Path - Starts
 
 ## How to Learn Effectively
 
@@ -67,6 +98,68 @@ Here's the list with names and context added:
 - **Codrut Andrei** -- Director of Product Security, AppSec and Secure SDLC practitioner, active mentor helping people break into the field
   https://www.linkedin.com/in/codrut-andrei/
 
+## Local Networking
+- Personal Take: Essentially every job I have ever gotten was from networking, meeting folks building relationships and trust. In a world of AI, I personally have hired over 30+ folks over the years, and in the last year hiring is awful from both sides. I open a job req and in minutes have 50 AI resumes or applications... Network Network Network.
+
+Getting into security isn't just about learning technical skills. It's also about building relationships with other practitioners in your area. Look up local cybersecurity meetups on Meetup.com, search for security events on Eventbrite, and find conferences near you. This will take some Googling, but search for things like "OWASP chapter [your city]", "cybersecurity meetups [your city]", and "security conferences [your state/region]". These events are invaluable for networking, learning what skills are in demand locally, and often hearing about job opportunities before they're posted. Show up, introduce yourself, and don't be afraid to tell people you're looking to break into the field. The security community is generally welcoming to newcomers who show genuine interest.
+
+
+
+## Podcasts to Tune into
+- Coffee, Chaos and ProdSec: https://linktr.ee/coffeechaosprodsec
+- Absolute AppSec: https://absoluteappsec.com/
+- The OpenSourceMalware Show: https://podcast.opensourcemalware.com/
+- Boring AppSec Podcast: https://www.boringappsec.com/s/podcast
+- Application Security Weekly: https://www.scworld.com/podcast-show/application-security-weekly
+- The Application Security Podcast: https://appsec.buzzsprout.com/
+- The Security Champions Podcast: https://www.securityjourney.com/resources/security-champions-podcast
+- What's in the SOSS? An OpenSSF Podcast: https://openssf.org/podcast/
+
+## Newsletters & Blogs
+Stay current with security news and practical advice:
+
+- TL;DR sec (Newsletter & Blog): https://tldrsec.com/subscribe
+- Boring AppSec (Newsletter & Blog): https://boringappsec.substack.com/subscribe
+- Resilient Cyber: https://www.resilientcyber.io/
+- Cybersecurity Pulse: https://www.cybersecuritypulse.net/
+
+## YouTube Channels & Video Content
+- OWASP Global: Watch recordings from OWASP AppSec conferences and expand your knowledge on application security.
+  - https://www.youtube.com/@OWASPGLOBAL
+- LASCON: Real-world AppSec conference talks and presentations from practitioners.
+  - https://youtube.com/@lascon512
+- BSidesSF: Security BSides San Francisco is a two-day information security conference. It is a conference by the community for the community.
+  - https://www.youtube.com/@BSidesSF
+- DEFCON Conference: DEF CON is one of the oldest continuously running hacker conventions around, and also one of the largest.
+  - https://www.youtube.com/@DEFCONConference
+- Black Hat: Black Hat Briefings and Trainings are driven by the needs of the global security community, striving to bring together the best minds in the industry.
+  - https://www.youtube.com/@BlackHatOfficialYT/featured
+- OWASP DevSlop (Tanya Janca): Practical AppSec education, secure coding, and developer-focused security content.
+  - https://youtube.com/@DevSlop
+- DevSecOps Course - Web Vulnerabilities, DevSecOps Tools, and Container Security.
+  - https://www.youtube.com/watch?v=F5KJVuii0Yw
+- IBM Technology: Whether it’s AI, automation, cybersecurity, data science, DevOps, quantum computing or anything in between, we provide educational content on the biggest topics in tech.
+  - https://www.youtube.com/@IBMTechnology
+- unprompted: The AI security practitioners' conference
+  - https://www.youtube.com/@un_prompted
+- NDC Conferences: NDC Conferences aims to find the greatest minds and leaders in the field of software development, striving to make the best and most updated knowledge available to developers everywhere. 
+  - https://www.youtube.com/@NDC
+- Bsides Seattle: Bsides Seattle is a community information security conference in Seattle Washington.
+  - https://www.youtube.com/@bsidesseattle3784
+
+
+## Interesting YouTube content creators with security education and training content
+- vulnerableu: Cybersecurity veteran and ex-CISO Matt Johansen shares front-line stories, proven frameworks, and global security news to help you build a stronger, more resilient security practice.
+  - https://youtube.com/@vulnerableu
+- LowLevelTV: Videos about cyber security + software security
+  - https://www.youtube.com/@LowLevelTV
+- Unsupervised Learning: Building AI that upgrades humans and companies.
+  - https://www.youtube.com/@unsupervised-learning
+
+## Paid Courses
+- Application Security - The Complete Guide
+  - https://www.udemy.com/course/application-security-the-complete-guide/
+
 ## Foundational Knowledge
 
 ### Start Here, Core AppSec Concepts
@@ -119,7 +212,10 @@ These aren't just reading material. They're the standards you'll reference daily
 - Follow up with cloud security-specific training (Youtube, Blogs, just search Cloud Security)
 - Modern AppSec lives in the cloud. You need to understand how cloud environments work. 
 
-## Learn to Code (Yes, Really)
+## Learn to Code (Yes, Really) (Or Maybe not...)
+
+- Cavat: I wanted to add a cavat, In the last 9 months things changed with AI, in 2025 AI was useful but I'd say it was way more debatable. In 2026 AI especially around coding has really exploded in a positive way. AppSec automation is where you will end up coding, and with AI that skill could be lifted and shifted to AI. Now that doesn't mean you shouldn't know to code but the skill is being devalued for AI coding and AI usability skills.
+
 You can't secure what you don't understand. There are lots of free courses on YouTube from different channels such as FreeCodeCamp, and Udemy offers cheap courses if you want more structured learning. Learning how to code, understand code, and recognize what languages are used in different parts of software is absolutely key. Take full stack programming courses and learn Python or Go for automation/API-to-API scripts. You're going to talk to developers and work with developers every single day. You need to speak their language or you won't be effective.
 - You will need to understand how code works -- not just syntax, but control flow, how data moves through a function, how inputs become outputs, and where things can go wrong. You're looking for vulnerabilities in code every day; you can't spot them if you can't read the code.
 - Understand how 3rd party libraries (OSS) are packaged and pulled into code -- how package managers like npm, pip, Maven, and Go modules work, what a dependency tree looks like, and why transitive dependencies matter. Most vulnerabilities in modern apps aren't in custom code, they're in the libraries it uses.
@@ -174,6 +270,14 @@ AI security is exploding right now. Get ahead of it:
 ### Follow Paolo, as he keeps posting free courses to take and learn on AI, look over his posts
 - **Paolo Perrone** -- AI/ML content and audience building, useful follow for LinkedIn content strategy and staying current on AI trends
   https://www.linkedin.com/in/paoloperrone/
+
+### AI Coding/Agents++
+Using AI in a technical manner is becoming extremely needed and required in the job space. I highly recommend subscribing to Claude Code Pro (Currently $20 plan) and taking (Claude Code Essentials)[https://www.youtube.com/watch?v=brLhhkUqcn4]. This course will walk you through Claude Code and at least become a sudo beginner. From thre you should build some AI Agent or skill projects
+- Dependency risk auditor: paste package.json/requirements.txt/pom.xml, get flagged deprecated/abandoned/CVE-prone deps and suggested replacements.
+- Threat model generator from code paste: paste core service files, get a STRIDE-based threat model plus a Mermaid diagram artifact.
+- AI agent permission auditor: describe an agent's tool access/scopes, get a report on blast radius if the agent is compromised or hallucinates a bad action.
+- IAM policy reviewer: paste AWS/GCP/Azure policy JSON, get least-privilege violations and overly permissive wildcard findings.
+- Crypto misuse scanner: scans a codebase for weak algorithms, hardcoded keys, and improper IV/nonce reuse across files, not just a single snippet.
 
 
 ### AI SAST
@@ -242,6 +346,8 @@ Then consider taking the Certified Penetration Testing Specialist (CPTS) from Ha
 ## Certifications Worth Considering
 
 While certifications aren't everything, some can provide structured learning paths and credibility:
+- Cavat 1: Keep in mind there aren't really AppSec or really DevSecOps or ProdSec certs that just fit all. Looking at the Security+ will really lean towards corporate Risk rather than being more ProdSec, its got useful info but thats about it.
+- Cavat 2: Keep in Mind, certs will help you get your foot in the door or pass HR. They are horrible for actually learning on the job actual work. Certs are built to be generic so the cert vendor makes it to be broad and easy so folks from all walks can pass it.
 
 **Foundation Certifications:**
 
@@ -281,51 +387,6 @@ with data, not anecdotes.
 **Incident Response Fundamentals:**
 AppSec engineers get pulled into incidents more than people expect. You do not need to be a full incident responder, but you need to understand the basics: how to scope an incident, what forensic preservation looks like, how to write a timeline, and how to communicate status to leadership without downplaying or escalating prematurely. Being calm and structured during an incident is one of the fastest ways to build 
 credibility with senior leadership.
-
-## Local Networking
-Getting into security isn't just about learning technical skills. It's also about building relationships with other practitioners in your area. Look up local cybersecurity meetups on Meetup.com, search for security events on Eventbrite, and find conferences near you. This will take some Googling, but search for things like "OWASP chapter [your city]", "cybersecurity meetups [your city]", and "security conferences [your state/region]". These events are invaluable for networking, learning what skills are in demand locally, and often hearing about job opportunities before they're posted. Show up, introduce yourself, and don't be afraid to tell people you're looking to break into the field. The security community is generally welcoming to newcomers who show genuine interest.
-
-## Podcasts to Tune into
-- Coffee, Chaos and ProdSec: https://linktr.ee/coffeechaosprodsec
-- Absolute AppSec: https://absoluteappsec.com/
-- The OpenSourceMalware Show: https://podcast.opensourcemalware.com/
-- Boring AppSec Podcast: https://www.boringappsec.com/s/podcast
-- Application Security Weekly: https://www.scworld.com/podcast-show/application-security-weekly
-- The Application Security Podcast: https://appsec.buzzsprout.com/
-- The Security Champions Podcast: https://www.securityjourney.com/resources/security-champions-podcast
-- What's in the SOSS? An OpenSSF Podcast: https://openssf.org/podcast/
-
-## Newsletters & Blogs
-Stay current with security news and practical advice:
-
-- TL;DR sec (Newsletter & Blog): https://tldrsec.com/subscribe
-- Boring AppSec (Newsletter & Blog): https://boringappsec.substack.com/subscribe
-- Resilient Cyber: https://www.resilientcyber.io/
-- Cybersecurity Pulse: https://www.cybersecuritypulse.net/
-
-## YouTube Channels & Video Content
-- OWASP Global: Watch recordings from OWASP AppSec conferences and expand your knowledge on application security.
-  - https://www.youtube.com/@OWASPGLOBAL
-- LASCON: Real-world AppSec conference talks and presentations from practitioners.
-  - https://youtube.com/@lascon512
-- BSidesSF: Security BSides San Francisco is a two-day information security conference. It is a conference by the community for the community.
-  - https://www.youtube.com/@BSidesSF
-- DEFCON Conference: DEF CON is one of the oldest continuously running hacker conventions around, and also one of the largest.
-  - https://www.youtube.com/@DEFCONConference
-- Black Hat: Black Hat Briefings and Trainings are driven by the needs of the global security community, striving to bring together the best minds in the industry.
-  - https://www.youtube.com/@BlackHatOfficialYT/featured
-- OWASP DevSlop (Tanya Janca): Practical AppSec education, secure coding, and developer-focused security content.
-  - https://youtube.com/@DevSlop
-- DevSecOps Course - Web Vulnerabilities, DevSecOps Tools, and Container Security.
-  - https://www.youtube.com/watch?v=F5KJVuii0Yw
-
-## Interesting YouTube content creators with security education and training content
-- vulnerableu: Cybersecurity veteran and ex-CISO Matt Johansen shares front-line stories, proven frameworks, and global security news to help you build a stronger, more resilient security practice.
-  - https://youtube.com/@vulnerableu
-- LowLevelTV: Videos about cyber security + software security
-  - https://www.youtube.com/@LowLevelTV
-- Unsupervised Learning: Building AI that upgrades humans and companies.
-  - https://www.youtube.com/@unsupervised-learning
 
 ## Recommended Books
 - "The Code Book" by Simon Singh: Understanding cryptography and its history
