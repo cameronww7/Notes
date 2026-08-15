@@ -1,7 +1,7 @@
 # Application Security/Product Security/DevSecOps Learning Path
 
 ## Why Read This?
-- Cavat: This is my opinion, and like opinions everyone has one, what I have outlined could 100% conflict with someone elses, keep that in mind, the path is yours and unique and this is a guide, nothing set it stone, I just hope it helps in your path to success.
+- Caveat: This is my opinion, and like opinions, everyone has one. What I've outlined could 100% conflict with someone else's. Keep that in mind, the path is yours and it's unique, this is a guide, nothing is set in stone. I just hope it helps you on your path to success.
 
 So you want to break into AppSec, DevSecOps, or Product Security. This isn't a generic list of certifications to collect or courses to finish. It's a practical roadmap built from real experience.
 
@@ -214,7 +214,7 @@ These aren't just reading material. They're the standards you'll reference daily
 
 ## Learn to Code (Yes, Really) (Or Maybe not...)
 
-- Cavat: I wanted to add a cavat, In the last 9 months things changed with AI, in 2025 AI was useful but I'd say it was way more debatable. In 2026 AI especially around coding has really exploded in a positive way. AppSec automation is where you will end up coding, and with AI that skill could be lifted and shifted to AI. Now that doesn't mean you shouldn't know to code but the skill is being devalued for AI coding and AI usability skills.
+- Caveat: I wanted to add a caveat. In the last 9 months things changed with AI. In 2025, AI was useful, but I'd say it was way more debatable. In 2026, AI, especially around coding, has really exploded in a positive way. AppSec automation is where you'll end up coding, and with AI, that skill could be lifted and shifted to AI. Now that doesn't mean you shouldn't know how to code, but the skill is being devalued in favor of AI coding and AI usability skills.
 
 You can't secure what you don't understand. There are lots of free courses on YouTube from different channels such as FreeCodeCamp, and Udemy offers cheap courses if you want more structured learning. Learning how to code, understand code, and recognize what languages are used in different parts of software is absolutely key. Take full stack programming courses and learn Python or Go for automation/API-to-API scripts. You're going to talk to developers and work with developers every single day. You need to speak their language or you won't be effective.
 - You will need to understand how code works -- not just syntax, but control flow, how data moves through a function, how inputs become outputs, and where things can go wrong. You're looking for vulnerabilities in code every day; you can't spot them if you can't read the code.
@@ -346,8 +346,8 @@ Then consider taking the Certified Penetration Testing Specialist (CPTS) from Ha
 ## Certifications Worth Considering
 
 While certifications aren't everything, some can provide structured learning paths and credibility:
-- Cavat 1: Keep in mind there aren't really AppSec or really DevSecOps or ProdSec certs that just fit all. Looking at the Security+ will really lean towards corporate Risk rather than being more ProdSec, its got useful info but thats about it.
-- Cavat 2: Keep in Mind, certs will help you get your foot in the door or pass HR. They are horrible for actually learning on the job actual work. Certs are built to be generic so the cert vendor makes it to be broad and easy so folks from all walks can pass it.
+- Caveat 1: Keep in mind there aren't really AppSec, DevSecOps, or ProdSec certs that just fit all. Looking at Security+, it leans more toward corporate risk rather than ProdSec. It's got useful info, but that's about it.
+- Caveat 2: Keep in mind, certs will help you get your foot in the door or pass HR. They're not great for actually learning the day-to-day work. Certs are built to be generic, so the vendor makes them broad and easy enough that folks from all walks can pass.
 
 **Foundation Certifications:**
 
