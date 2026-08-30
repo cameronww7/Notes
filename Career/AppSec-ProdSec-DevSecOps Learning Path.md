@@ -118,6 +118,8 @@ Getting into security isn't just about learning technical skills. It's also abou
 - The Application Security Podcast: https://appsec.buzzsprout.com/
 - The Security Champions Podcast: https://www.securityjourney.com/resources/security-champions-podcast
 - What's in the SOSS? An OpenSSF Podcast: https://openssf.org/podcast/
+- AI Security Podcast: https://www.aisecuritypodcast.com/
+- The Low Down: https://www.lowdownpod.com/podcast
 
 ## Newsletters & Blogs
 Stay current with security news and practical advice:
@@ -151,7 +153,7 @@ Stay current with security news and practical advice:
 - Bsides Seattle: Bsides Seattle is a community information security conference in Seattle Washington.
   - https://www.youtube.com/@bsidesseattle3784
 
-
+---
 ## Interesting YouTube content creators with security education and training content
 - vulnerableu: Cybersecurity veteran and ex-CISO Matt Johansen shares front-line stories, proven frameworks, and global security news to help you build a stronger, more resilient security practice.
   - https://youtube.com/@vulnerableu
@@ -159,17 +161,25 @@ Stay current with security news and practical advice:
   - https://www.youtube.com/@LowLevelTV
 - Unsupervised Learning: Building AI that upgrades humans and companies.
   - https://www.youtube.com/@unsupervised-learning
-
+---
 ## Paid Courses
 - Application Security - The Complete Guide
   - https://www.udemy.com/course/application-security-the-complete-guide/
 
-## Foundational Knowledge
+---
 
-### Start Here, Core AppSec Concepts
+# Foundational Knowledge
 
-- Read "Alice and Bob Learn Application Security" (As you complete chapters, watch Tanya's chapter summaries at the following YouTube playlist: https://youtube.com/playlist?list=PLI9RITMnVbygrVQaGvpojIzgHTpkRrIn8&si=xrUXxdTsikHFA0vF) and "Alice and Bob Learn Secure Coding"
-- Watch YouTube videos from Jim Manico (particularly "The History of AppSec") and Tanya Janca (any of her talks on YouTube)
+### >> Start Here, Core AppSec Concepts 
+
+Most of ProdSec is AppSec with a bigger scope. Before you can operate at the ProdSec level, you need the AppSec fundamentals cold, and these two books are where that foundation comes from. They're not optional reading, they're the baseline.
+
+- > Read **"Alice and Bob Learn Application Security"** by Tanya Janca. This is the foundational text for the field: threat modeling, secure design, the OWASP Top 10, and how security fits into the SDLC, explained clearly enough that it works as a first read and as a reference you come back to. As you complete each chapter, watch Tanya's chapter summaries on YouTube: https://youtube.com/playlist?list=PLI9RITMnVbygrVQaGvpojIzgHTpkRrIn8&si=xrUXxdTsikHFA0vF
+- > Read **"Alice and Bob Learn Secure Coding"** by Tanya Janca. Where the first book covers the program and process side, this one goes into the actual vulnerability classes and secure coding patterns, injection, auth, cryptography, and more, with the reasoning behind why the fix works, not just the fix itself. Read it after the first book, it builds directly on those concepts.
+- > Watch YouTube videos from **Jim Manico**, particularly **"The History of AppSec"**. Manico has been in this field since before "AppSec" was a standard term, and understanding where the discipline came from (and why certain practices exist) gives you context that most people entering the field skip past.
+- > Watch any of **Tanya Janca's** talks on YouTube. She covers the same core concepts as the books but in talk format, useful for reinforcing what you read or for a faster first pass before committing to the books.
+
+These two books alone will get you further than most paid AppSec courses. Everything else in this guide builds on top of what they teach.
 
 #### Essential Video Content
 
@@ -208,13 +218,6 @@ These aren't just reading material. They're the standards you'll reference daily
 - OWASP ASVS (Application Security Verification Standard): https://owasp.org/www-project-application-security-verification-standard/
 - OWASP SPVS (Secure Pipeline Verification Standard): https://owasp.org/www-project-spvs/
 
-### Understand the Cloud
-- Take AWS Certified Cloud Practitioner (CCP) or general cloud understanding courses. 
-    - Free course: https://youtu.be/NhDYbskXRgc?si=pHmsypJT3WfrzCxt
-- Or for Azure (Microsoft Certified: Azure Fundamentals (Exam AZ-900))
-    - Free course: https://www.youtube.com/watch?v=5abffC-K40c
-- Follow up with cloud security-specific training (Youtube, Blogs, just search Cloud Security)
-- Modern AppSec lives in the cloud. You need to understand how cloud environments work. 
 
 ## Learn to Code (Yes, Really) (Or Maybe not...) (These could also be AI Projects)
 
@@ -268,20 +271,66 @@ AI security is exploding right now. Get ahead of it:
 
 - Start with TCM Security's AI Fundamentals course (free on YouTube and TCM Academy)
 - Go to YouTube and search "AI Security" and you'll find tons of videos. Start digesting and learning, taking notes as you go.
-- Dive into Model Context Protocol (MCP), MCP Security, AI Agents, and related topics (Just Google or search on LinkedIn, you'll find a ton of stuff)
 - Reference the OWASP Top 10 for LLMs when working with AI/ML applications
 
 ### Follow Paolo, as he keeps posting free courses to take and learn on AI, look over his posts
 - **Paolo Perrone**: AI/ML content and audience building, useful follow for LinkedIn content strategy and staying current on AI trends
   https://www.linkedin.com/in/paoloperrone/
 
-### AI Coding/Agents++
-Using AI in a technical manner is becoming extremely needed and required in the job space. I highly recommend subscribing to Claude Code Pro (Currently $20 plan) and taking (Claude Code Essentials)[https://www.youtube.com/watch?v=brLhhkUqcn4]. This course will walk you through Claude Code and at least become a sudo beginner. From thre you should build some AI Agent or skill projects
+### Understand How Devs Are Actually Building With AI
+You can't secure what you don't understand. Devs are shipping AI-assisted and AI-generated code at a pace most AppSec programs haven't caught up to. Before you can put controls around this, you need to understand the workflow:
+
+- Learn how AI coding assistants work in practice: autocomplete-style (Copilot) vs. agentic (Claude Code, Cursor, Windsurf) vs. chat-based code generation. Each has different risk profiles.
+- Understand what "agentic coding" means: the AI isn't just suggesting a line, it's reading your codebase, making multi-file changes, running commands, and iterating on its own. That's a much bigger blast radius if it gets something wrong or is manipulated.
+- Know the common failure modes: hallucinated dependencies (slopsquatting risk), insecure patterns pulled from training data, secrets committed because the AI didn't know better, overly broad permissions granted to agents "to make it work."
+- Track how much of your org's codebase is AI-assisted. If you don't know the answer, that's itself a finding.
+
+### Model Context Protocol (MCP)
+MCP is becoming the standard way AI agents connect to tools, data sources, and internal systems. You need to understand both how it works and where it breaks.
+
+- Mechanics: MCP servers expose tools/functions an AI agent can call (read a file, hit an API, query a database). The agent decides when to invoke them based on the conversation. Clients (Claude Desktop, Claude Code, IDEs) connect to one or more MCP servers and pass tool results back into the model's context.
+- Security risks to understand:
+    - **Tool poisoning**: a malicious or compromised MCP server returns tool descriptions or results designed to manipulate the agent's behavior, not just bad data, but adversarial instructions embedded in what looks like normal output.
+    - **Prompt injection via tool results**: content returned from a tool call (a file, a webpage, an API response) can contain instructions the model treats as legitimate, effectively letting untrusted data steer the agent.
+    - **Overprivileged servers**: MCP servers often get broader access than the task requires (full repo write, full inbox access) because scoping them down is extra work nobody does by default.
+    - **Auth and credential handling**: many early MCP implementations handle tokens/secrets loosely. Know how the server you're connecting to authenticates and where those credentials live.
+    - **Supply chain risk**: an MCP server is code you're trusting, often from a third party, often with minimal vetting. Treat it like any other dependency.
+- Search "MCP security" on LinkedIn and Google, this space is moving fast and most of the useful writing right now is blog posts and talks, not formal docs.
+
+### AI Agents and Skills
+- Dive into AI Agents generally: how they plan, use tools, and maintain (or lose) context across a task. Understanding agent architecture helps you reason about where things can go wrong.
+- Learn what "skills" are in the context of tools like Claude Code: packaged instructions/context that give an agent repeatable, specialized capability for a task. You should build your own, not just use ones that exist. Building one forces you to think through inputs, failure modes, and scope the same way you'd threat model anything else.
+
+### Injecting Security Into the Dev Loop
+Long term, tools and coding assistants are moving toward more contextual and automated behavior, where the assistant can be configured to run checks, enforce standards, or flag issues at specific points in a workflow rather than only when asked. This is worth understanding conceptually even if your org isn't there yet:
+
+- The idea: instead of security review happening after code is written (PR review, pipeline scan), controls get triggered at the point of creation, as the AI is generating or modifying code.
+- Why it matters for AppSec: if AI is writing a meaningful share of your code, the highest-leverage place to catch a problem is before it's committed, not after. Shifting left again, but shifting left of the human this time.
+- What to learn: how AI coding tools are exposing hooks, extensions, or context-injection points (things like custom instructions, pre-action checks, or configurable rules the assistant follows). Even if the tooling is immature, understanding the pattern now puts you ahead of where most AppSec programs will need to be in a year.
+- Consider how you'd inject security context automatically: internal secure coding standards, known-bad patterns for your stack, or org-specific policies fed to the assistant so secure behavior is the default output, not something caught later in review.
+
+### AI Coding/Agents in Practice
+Using AI in a technical manner is becoming extremely needed and required in the job space. I highly recommend subscribing to Claude Code Pro (currently $20/month) and taking [Claude Code Essentials](https://www.youtube.com/watch?v=brLhhkUqcn4). This course will walk you through Claude Code and get you to at least a solid beginner level. From there, build some AI agent or skill projects:
+
 - Dependency risk auditor: paste package.json/requirements.txt/pom.xml, get flagged deprecated/abandoned/CVE-prone deps and suggested replacements.
 - Threat model generator from code paste: paste core service files, get a STRIDE-based threat model plus a Mermaid diagram artifact.
 - AI agent permission auditor: describe an agent's tool access/scopes, get a report on blast radius if the agent is compromised or hallucinates a bad action.
 - IAM policy reviewer: paste AWS/GCP/Azure policy JSON, get least-privilege violations and overly permissive wildcard findings.
 - Crypto misuse scanner: scans a codebase for weak algorithms, hardcoded keys, and improper IV/nonce reuse across files, not just a single snippet.
+
+### Skill Ideas to Build
+Building your own skills is the fastest way to actually understand how this stuff works under the hood. Some starting points:
+
+- **Secure code review skill**: give it your org's secure coding standards as context, have it review a pasted diff or file against those specific standards instead of generic best practices.
+- **MCP server security reviewer**: paste an MCP server's tool definitions/manifest, get a report on overprivileged scopes, missing input validation on tool params, and potential injection surface in tool descriptions.
+- **SBOM/license risk skill**: paste a dependency manifest, get flagged copyleft licenses, unmaintained packages, and known-malicious package name lookalikes (typosquat check).
+- **Findings triage skill**: paste raw SAST/SCA/secrets scanner output, get it deduped, ranked by exploitability, and sorted into true positive/false positive/needs review.
+- **Security-context injector**: a skill that, given a repo's language and framework, generates the org-specific secure coding context (banned functions, required libraries, auth patterns) that other skills or agents should be fed before touching that codebase.
+- **AI-generated code diff auditor**: paste a before/after diff from an AI coding session, get flagged anything that looks like a hallucinated dependency, weakened validation, or newly introduced secret.
+- **Findings triage skill**: paste raw SAST/SCA/secrets scanner output, get it deduped, ranked by exploitability, and sorted into true positive/false positive/needs review.
+- **Remediation and patch skill**: take a confirmed true positive finding and generate the actual fix, a code-level patch for SAST/SCA issues, a corrected IaC config, or a secrets rotation checklist, not just a description of what to do. Should cite the exact file/line changed and explain why the fix closes the vulnerability, not just that it does.
+- **Security-context injector**: a skill that, given a repo's language and framework, generates the org-specific secure coding context (banned functions, required libraries, auth patterns) that other skills or agents should be fed before touching that codebase.
+- **AI-generated code diff auditor**: paste a before/after diff from an AI coding session, get flagged anything that looks like a hallucinated dependency, weakened validation, or newly introduced secret.
 
 
 ### AI SAST
@@ -303,7 +352,29 @@ These are not drop-in SAST tools; they are autonomous systems that combine fuzzi
 
 ## Build Your Own Secure Pipeline
 
-This is your hands-on laboratory. Set up your own secure pipeline using open source tools. Use GitHub runners or Jenkins locally. Configure it to run against vulnerable code and scan using free open source scanners:
+This is your hands-on laboratory. Set up your own secure pipeline using open source tools. Use GitHub runners or Jenkins locally. Configure it to run against vulnerable code and scan using free open source scanners.
+
+### Understand Where and Why You Scan
+Before you touch tools, understand the mechanics of pipeline security scanning. This is core knowledge, you need to be able to speak to it, not just run the tools.
+
+- **Know the injection points**: most scan types can run in more than one place, and where you run them changes what you get.
+    - CLI/local: fastest feedback, runs on the dev's machine before code is even committed. Best for catching issues early, but adoption depends on devs actually running it.
+    - IDE: near-instant feedback as code is written. Highest developer buy-in when done well, but coverage is usually limited to lighter checks.
+    - Pre-commit/pre-push hook: catches issues before they enter git history at all. Good for secrets detection especially, since removing a secret from history after commit is painful.
+    - PR/pipeline (CI): the standard checkpoint most orgs rely on. Consistent, can't be skipped by an individual dev, but feedback comes later in the cycle than IDE or CLI.
+    - Runtime: some tools (DAST, RASP-style approaches) only work against a running application. This is your last line before or after production, not a substitute for earlier scanning.
+- **Know why each tool type exists and what it actually does**: what SAST is analyzing (source code/AST, no running app needed), what DAST is analyzing (a running app, black-box, no source access needed), what SCA is analyzing (your dependency tree against known vuln databases). Don't just know the acronym, know the mechanism.
+- **Know why these are the default tools at most companies**: SAST, DAST, and SCA form the baseline because they cover three different attack surfaces (code you wrote, the app as it runs, code you didn't write but depend on). Most compliance frameworks and security programs expect at least these three in some form.
+- **Be able to speak to tradeoffs, not just definitions**: 
+    - SAST: fast, runs early, no running app required, but high false positive rates and blind to runtime/config issues.
+    - DAST: tests real running behavior including auth and business logic, but slower, needs a deployed environment, and misses anything not exercised during the scan.
+    - SCA: fast and high signal on known CVEs, but only as good as its vulnerability database and doesn't catch custom code issues at all.
+- **Understand how AI is changing this category.** AI-augmented SAST and DAST tools are emerging and worth researching now, not later:
+    - **AI SAST**: traditional SAST flags patterns, AI-augmented SAST adds context-aware analysis, understanding data flow and business logic well enough to reduce the false positive rate that's historically been SAST's biggest complaint. Some tools now use LLMs to reason about whether a flagged pattern is actually reachable/exploitable in context, instead of just pattern matching.
+    - **AI DAST**: traditional DAST fuzzes and crawls based on scripted logic. AI-augmented DAST adds smarter exploration (understanding app flow more like a human tester would) and, in some tools, automated exploit validation, actually attempting to confirm a finding is exploitable rather than just flagging it, which directly attacks the false positive problem DAST also has.
+    - This space is moving fast and vendor claims outpace reality in places, so treat it the way you'd treat any new security tooling category: understand the mechanism before you trust the marketing.
+
+Configure your pipeline to run against vulnerable code and scan using free open source scanners:
 
 - **SAST**: Semgrep (free), OpenGrep (free), Snyk (free tier), Bandit (Python), Brakeman (Rails), Gosec (Go), SpotBugs (Java), ESLint security plugins (JavaScript) 
     - use language-specific tools where you can, they produce fewer false positives than generic scanners
@@ -368,28 +439,51 @@ In order of recommended progression:
 - Practical Junior Penetration Tester (PJPT)
 - Practical Network Penetration Tester (PNPT)
 - Web Pentest Associate (PWPA)
+- Offensive Security Certs (For some reason pen testing is a good cert, learn the attacker perspective)
 
 ## Core Skills That Separate You From the Pack
 
+**Understand the Cloud:**
+- Modern AppSec lives in the cloud. Application security today requires understanding not just how code runs, but how it's deployed, networked, and secured at the infrastructure level.
+
+- Start with a foundational cert or course:
+    - AWS Certified Cloud Practitioner (CCP), free course: https://youtu.be/NhDYbskXRgc?si=pHmsypJT3WfrzCxt
+    - Or Azure Fundamentals (AZ-900), free course: https://www.youtube.com/watch?v=5abffC-K40c
+    - GCP is less common as a first cert but worth knowing if your org runs on it (Google Cloud Digital Leader)
+
+- Learn the core primitives, they're consistent across providers even when the names differ:
+    - IAM: roles, policies, least privilege, how permission escalation actually happens
+    - Networking: VPCs/subnets, security groups, what's actually internet-facing vs. internal
+    - Storage: bucket/blob access controls, public exposure misconfigs (still one of the most common breach patterns)
+    - Shared responsibility model: know exactly where the provider's security obligation ends and yours begins
+
+- Go deeper into cloud security specifically:
+    - Follow up with cloud security-specific training (YouTube, blogs, just search Cloud Security)
+    - Understand common misconfiguration classes: overly permissive IAM, public storage, unencrypted data at rest/in transit, exposed secrets in cloud resources
+    - Learn how cloud-native security tooling works: CSPM, CIEM, cloud-native SAST/DAST integrations
+
+- Understand how CI/CD pipelines interact with cloud infrastructure. Most modern deploys push directly into cloud environments, and pipeline compromise is now a direct path to cloud compromise, not a separate problem
+
+
 **Threat Modeling:**
-This is fundamental to AppSec. It's not optional. Threat modeling helps you identify security risks during the design phase, before code is even written. Threat Modeling or Secure Design Review, is evaluating architecture before code is written. Most high-impact vulnerabilities are baked in at the design phase. Catching them there is exponentially cheaper than finding them post-deployment. Focus on methodologies like STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) and PASTA. This skill separates good AppSec engineers from great ones. Hiring managers look for this.
+- This is fundamental to AppSec. It's not optional. Threat modeling helps you identify security risks during the design phase, before code is even written. Threat Modeling or Secure Design Review, is evaluating architecture before code is written. Most high-impact vulnerabilities are baked in at the design phase. Catching them there is exponentially cheaper than finding them post-deployment. Focus on methodologies like STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) and PASTA. This skill separates good AppSec engineers from great ones. Hiring managers look for this.
 - Adam Shostack Threat Modeling Playlists: https://www.youtube.com/@Shostack/playlists
 - Threat Modeling with AI: Turning Every Developer into a Threat Modeler: https://www.youtube.com/watch?v=GW0zQGs8FCY
 - Threat Modeling Agentic AI Systems: Proactive Strategies for Security and Resilience: https://www.youtube.com/watch?v=R49Cv7pJ2KA
 
 **Risk Communication:**
-A CVSS score means nothing to a VP of Engineering or a CFO. Learn to frame findings in terms of business outcomes: what data is at risk, what does exploitation look like, and what does fixing it cost versus not fixing it. If you can brief a CISO and a developer on the same finding two different ways without losing accuracy in either, 
+- A CVSS score means nothing to a VP of Engineering or a CFO. Learn to frame findings in terms of business outcomes: what data is at risk, what does exploitation look like, and what does fixing it cost versus not fixing it. If you can brief a CISO and a developer on the same finding two different ways without losing accuracy in either, 
 you will stand out.
 
 **Developer Empathy:**
-Developers are under constant pressure to ship and security is rarely their primary job function. If you show up as the person who slows them down and blocks releases, you will be ignored. If you show up as the person who helps them write secure code faster and integrates into their workflow, you become an asset. The best AppSec engineers have either written production code or spent enough time with engineering teams to deeply understand the tradeoffs developers face daily.
+- Developers are under constant pressure to ship and security is rarely their primary job function. If you show up as the person who slows them down and blocks releases, you will be ignored. If you show up as the person who helps them write secure code faster and integrates into their workflow, you become an asset. The best AppSec engineers have either written production code or spent enough time with engineering teams to deeply understand the tradeoffs developers face daily.
 
 **Metrics and Measurement:**
-You cannot defend your program without data. Learn what metrics actually matter: mean time to remediate by severity, SLA compliance rates, scanner coverage, and reduction in repeat vulnerability classes over time. Know what metrics are vanity: total vulnerabilities found means almost nothing without context. When budget cycles come around and leadership asks whether the program is working, you need to answer 
+- You cannot defend your program without data. Learn what metrics actually matter: mean time to remediate by severity, SLA compliance rates, scanner coverage, and reduction in repeat vulnerability classes over time. Know what metrics are vanity: total vulnerabilities found means almost nothing without context. When budget cycles come around and leadership asks whether the program is working, you need to answer 
 with data, not anecdotes.
 
 **Incident Response Fundamentals:**
-AppSec engineers get pulled into incidents more than people expect. You do not need to be a full incident responder, but you need to understand the basics: how to scope an incident, what forensic preservation looks like, how to write a timeline, and how to communicate status to leadership without downplaying or escalating prematurely. Being calm and structured during an incident is one of the fastest ways to build 
+- AppSec engineers get pulled into incidents more than people expect. You do not need to be a full incident responder, but you need to understand the basics: how to scope an incident, what forensic preservation looks like, how to write a timeline, and how to communicate status to leadership without downplaying or escalating prematurely. Being calm and structured during an incident is one of the fastest ways to build 
 credibility with senior leadership.
 
 ## Recommended Books
