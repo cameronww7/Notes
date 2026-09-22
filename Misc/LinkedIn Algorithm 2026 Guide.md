@@ -1,50 +1,49 @@
-# LinkedIn Algorithm 2026: Changes and Strategy Guide
+# LinkedIn Algorithm 2026: Strategy Guide with AI Writing Workflow
 Updated September 2026. Version 2026.5. Built from 60+ sources, November 2025 to September 2026.
 
 ---
 
 ## Contents
 
-Overview: Executive Summary, What Changed, 2026 Timeline, Quick Wins
-
-Part 1: How LinkedIn Ranks Posts
-1. How the Algorithm Works
-2. Engagement Hierarchy
-3. Attention and Engagement Quality
-4. The AI Slop Crackdown
-5. What Gets Suppressed
-
-Part 2: Set Up Your Profile
-6. Positioning and Profile-to-Content Match
-7. Personal Profile vs Company Page
-
-Part 3: Create Posts
-8. Post Types and Content Mix
-9. The Hook
-10. Post Length and Structure
-11. Formatting
-12. Hashtags: Dead
-13. Links
-14. Format Guide
-15. Video
-16. Newsletters and Articles
-17. Pre-Publish Checklist
-
-Part 4: Publish and Engage
-18. Posting Frequency and Timing
-19. The Golden Hour (First 60 to 90 Minutes)
-20. Comments
-21. Tagging and Collaboration
-22. Editing, Reposting, and Repurposing
-23. Weekly Cadence Example
-
-Part 5: Measure and Recover
-24. Analytics
-25. Diagnostic and 30-Day Recovery
-
-Reference
-26. Contested and Unverified Claims
-27. Watch List
+- Overview
+  - Executive Summary
+  - What Changed
+  - 2026 Timeline
+  - Quick Wins
+- Part 1: How LinkedIn Ranks Posts
+  - 1\. How the Algorithm Works
+  - 2\. Engagement Hierarchy
+  - 3\. Attention and Engagement Quality
+  - 4\. The AI Slop Crackdown
+  - 5\. What Gets Suppressed
+- Part 2: Set Up Your Profile
+  - 6\. Positioning and Profile-to-Content Match
+  - 7\. Personal Profile vs Company Page
+- Part 3: Create Posts
+  - 8\. Post Types and Content Mix
+  - 9\. The Hook
+  - 10\. Post Length and Structure
+  - 11\. Formatting
+  - 12\. Hashtags: Dead
+  - 13\. Links
+  - 14\. Format Guide
+  - 15\. Video
+  - 16\. Newsletters and Articles
+  - 17\. Writing with AI
+  - 18\. Pre-Publish Checklist
+- Part 4: Publish and Engage
+  - 19\. Posting Frequency and Timing
+  - 20\. The Golden Hour (First 60 to 90 Minutes)
+  - 21\. Comments
+  - 22\. Tagging and Collaboration
+  - 23\. Editing, Reposting, and Repurposing
+  - 24\. Weekly Cadence Example
+- Part 5: Measure and Recover
+  - 25\. Analytics
+  - 26\. Diagnostic and 30-Day Recovery
+- Reference
+  - 27\. Contested and Unverified Claims
+  - 28\. Watch List
 
 ---
 
@@ -66,7 +65,7 @@ What changed in 2026:
 - LinkedIn's own posting guidance: 2 to 5 posts per week, 1 to 2 of them video.
 - LinkedIn Live must be scheduled as an event since June 22.
 
-Bottom line: match your profile to one niche, write from real experience, create document posts, optimize for saves and reshares, skip hashtags, never automate engagement.
+Bottom line: match your profile to one niche, write from real experience, use AI only as proofreader or critic, create document posts, optimize for saves and reshares, skip hashtags, never automate engagement.
 
 ---
 
@@ -97,7 +96,7 @@ What wins:
 - Personal profile over company page
 - Document posts and short video
 - Substantive comments over likes
-- Human voice and real experience
+- Human voice, AI as editor only
 
 ---
 
@@ -127,6 +126,7 @@ What wins:
 Do now:
 - Align headline and About to your 2 to 3 topic lanes
 - Complete LinkedIn verification
+- Switch AI to interviewer / critic / proofreader only
 - Create one document post per week (6 to 12 slides)
 - Post 2 to 5 times per week, 24+ hours apart
 - Add 1 to 2 short videos per week
@@ -136,7 +136,8 @@ Do now:
 - Check mobile preview before publishing
 
 Stop doing:
-- Automated comments
+- AI rewrites of your drafts
+- AI or automated comments
 - Hashtags
 - Engagement pods or coordinated early comments
 - Polls
@@ -262,7 +263,7 @@ Timeline: May 20 policy announcement, July 30 report button, August 20 results.
 
 LinkedIn defines AI slop as content that is polished in presentation but lacks substance: no particular experience, perspective, or insight.
 
-LinkedIn targets:
+LinkedIn states AI use for refining language is fine. The target is:
 - Posts that read generic or repetitive, even if polished
 - Comments posted at scale by automation
 - Replies that restate the post without adding anything
@@ -274,6 +275,8 @@ Effects:
 - Heavily reported creators get a private warning in analytics
 
 Context: Pangram scanned ~1M posts and found 40%+ of long-form LinkedIn posts fully AI-generated. Readers now scroll past model-sounding text faster, which cuts dwell time independent of any classifier.
+
+How to write with AI without triggering this is in section 17.
 
 ---
 
@@ -340,7 +343,7 @@ Don't:
 
 | Type | Example | Why it works | Format |
 |---|---|---|---|
-| Field report | "We rolled out X across N repos. Here's what broke." | Specific, hard to fake | Text or text + screenshot |
+| Field report | "We rolled out X across N repos. Here's what broke." | Specific, unrepeatable by AI | Text or text + screenshot |
 | Contrarian take with evidence | Disagree with common advice, show the case | Real debate in comments | Text |
 | Framework / checklist | Reusable model people reference later | Highest save rate | Document post |
 | Teardown | Incident, breach report, standard, or vendor claim | Timely + expertise | Text or document |
@@ -415,7 +418,7 @@ Do:
 
 Don't:
 - Walls of text
-- One sentence per line (reads templated)
+- One sentence per line (a known AI template pattern)
 - Perfectly even paragraphs and parallel bullets
 - Lesson-summary paragraph restating the post
 
@@ -495,7 +498,7 @@ Working rule:
 - 6 to 12 slides; engagement drops past ~10
 - 1080x1080 or 1080x1350, exported as PDF
 - Slide 1 is the hook; one point per slide; text readable on a phone
-- Real content, not a stretched text post; templated carousels read as low effort
+- Real content, not a stretched text post; templated AI carousels are a known slop category
 - Caption of 150 to 500 characters explaining why you made it
 - Final slide: your point or a specific question, not "Like / Save / Follow"
 - Watch item: LinkedIn has been shrinking carousel display size without explanation
@@ -541,7 +544,107 @@ Use a newsletter on your core lane with a fixed structure you can sustain.
 
 ---
 
-## 17) Pre-Publish Checklist
+## 17) Writing with AI
+
+### Why "write paragraphs, have AI clean it up" backfires
+
+| What the cleanup does | Result |
+|---|---|
+| Evens out sentence length | Uniform rhythm readers and classifiers flag |
+| Swaps your words for "clearer" ones | Same vocabulary as millions of posts |
+| Adds hook / three points / takeaway | Template shape |
+| Adds "It's not X, it's Y" | Top AI tell |
+| Adds tricolons, stacked adjectives, em dashes | Top AI tells |
+| Cuts tangents and softens claims | Deletes proof of experience |
+| Adds a closing question or lesson | Engagement bait pattern |
+
+### Three safe roles for AI
+
+| Role | AI does | AI never does |
+|---|---|---|
+| Interviewer | Asks questions to pull out specifics before you write | Write the post |
+| Critic | Flags generic lines, missing evidence, weak hooks | Rewrite them |
+| Proofreader | Fixes grammar and typos; proposes cuts for approval | Rephrase, restructure, or add |
+
+Workflow:
+1. Brain dump your paragraphs
+2. Run the Interviewer prompt; answer in your own words
+3. Rewrite the post yourself using those specifics
+4. Run the Critic prompt; fix flagged lines yourself
+5. Run the Proofreader prompt; approve or reject each cut
+6. Read it out loud once; cut anything you wouldn't say to a peer
+
+### Prompt 1: Interviewer
+```
+I'm writing a LinkedIn post for security and engineering practitioners.
+Below are my rough notes. Do not write or rewrite anything.
+
+Ask me up to 6 questions that would pull out:
+- specific numbers, tools, systems, or timeframes
+- a decision I made and what it cost
+- what went wrong or surprised me
+- where I disagree with common advice
+- the one point a reader should leave with
+
+One question per line. No commentary.
+
+NOTES:
+<paste>
+```
+
+### Prompt 2: Critic
+```
+Review the LinkedIn draft below. Do not rewrite it or suggest replacement
+text. Return a table with: line quoted, problem, what kind of detail
+would fix it.
+
+Flag:
+- sentences any practitioner in my field could have written
+- claims with no example, number, or experience behind them
+- hooks where the first 210 characters don't state the topic and give a
+  reason to expand
+- AI writing patterns: "it's not X, it's Y", groups of three, em dashes,
+  stacked adjectives, "here's the thing", generic closing questions,
+  one-sentence-per-line formatting, words like leverage, robust,
+  seamless, landscape, navigate, unlock, elevate, delve
+- more than one main idea
+- engagement bait endings
+- hashtags, external links, or "link in comments"
+
+Then give one line: the single biggest weakness.
+
+DRAFT:
+<paste>
+```
+
+### Prompt 3: Proofreader
+```
+Proofread the post below. Rules:
+- Fix spelling, grammar, and punctuation only.
+- Do not rephrase, reorder, add a hook, add a closing question, or add
+  structure.
+- Do not introduce em dashes, lists of three, or "it's not X, it's Y".
+- Keep my uneven sentence lengths and informal word choices.
+- You may remove words that add nothing. Show each removal in [brackets]
+  so I approve it.
+Return only the corrected post.
+
+POST:
+<paste>
+```
+
+### AI tells to strip before posting
+- Constructions: "It's not X, it's Y", "X isn't about Y", "Here's the thing", "Let that sink in", "The truth is", rhetorical question followed by its answer
+- Structure: groups of three, perfectly parallel bullets, hook / list / lesson / question template, one sentence per line
+- Punctuation: em dashes, colons before reveals
+- Vocabulary: leverage, robust, seamless, landscape, navigate, unlock, elevate, delve, game-changer, journey, "in today's fast-paced world", "excited to share"
+- Endings: "Thoughts?", "Agree?", "What do you think?", "Repost if this resonated"
+
+What proves human authorship: specific examples, first-hand stories, industry nuance, contrarian positions with evidence, humor that requires context.
+
+---
+
+## 18) Pre-Publish Checklist
 
 Content
 - [ ] One main idea
@@ -559,6 +662,7 @@ Form
 - [ ] No hashtags
 - [ ] No external link unless the links are the value
 - [ ] No bait ending
+- [ ] AI tells stripped
 - [ ] Mobile preview checked
 
 Timing
@@ -572,7 +676,7 @@ Timing
 
 ---
 
-## 18) Posting Frequency and Timing
+## 19) Posting Frequency and Timing
 
 ### How often
 Do:
@@ -596,7 +700,7 @@ Your experience validated: posting within 6 to 7 hours of a previous post kills 
 
 ---
 
-## 19) The Golden Hour (First 60 to 90 Minutes)
+## 20) The Golden Hour (First 60 to 90 Minutes)
 
 Do:
 - Post when you can be present for the next 60 to 90 minutes
@@ -612,7 +716,7 @@ Don't:
 
 ---
 
-## 20) Comments
+## 21) Comments
 
 Comments rank above likes; AuthoredUp's analysis of 621,833 posts puts a comment at roughly 2x a like, with a save roughly 2x a comment.
 
@@ -629,7 +733,7 @@ On others' posts:
 Don't:
 - "Great post!", "Following!", emoji-only, or one-word replies
 - Comments that restate the post
-- Automated comments or comment tools, ever
+- AI-written or automated comments, ever
 
 Comment quality hierarchy:
 1. Multi-sentence, adds something new
@@ -639,7 +743,7 @@ Comment quality hierarchy:
 
 ---
 
-## 21) Tagging and Collaboration
+## 22) Tagging and Collaboration
 
 Do:
 - Tag 1 to 5 people who are part of the story (co-hosts, collaborators, people you cite)
@@ -652,7 +756,7 @@ Don't:
 
 ---
 
-## 22) Editing, Reposting, and Repurposing
+## 23) Editing, Reposting, and Repurposing
 
 Editing:
 - Fix typos and add context early
@@ -667,7 +771,7 @@ Repurposing:
 
 ---
 
-## 23) Weekly Cadence Example
+## 24) Weekly Cadence Example
 
 - Post 1: Document post with a framework or checklist
 - Post 2: Text post with a contrarian take or teardown
@@ -686,7 +790,7 @@ Every week:
 
 ---
 
-## 24) Analytics
+## 25) Analytics
 
 Primary metrics:
 
@@ -713,7 +817,7 @@ Ignore as success metrics: total impressions (baseline reset), likes alone, foll
 
 ---
 
-## 25) Diagnostic and 30-Day Recovery
+## 26) Diagnostic and 30-Day Recovery
 
 ### Warning signs
 - Out-of-network reach % collapsing while in-network holds steady (classifier holding posts to your network)
@@ -722,7 +826,7 @@ Ignore as success metrics: total impressions (baseline reset), likes alone, foll
 - No profile visits from posts
 
 ### Common causes
-- Posts that read polished but generic, without specifics
+- AI-cleaned or AI-written posts reading generic
 - Topic drift outside your lanes
 - Link-heavy promotional posts
 - Automation or pod patterns
@@ -730,8 +834,8 @@ Ignore as success metrics: total impressions (baseline reset), likes alone, foll
 - Profile not matching post topics
 
 ### 30-day recovery experiment
-1. Baseline: pull the last 15 posts; record out-of-network %, saves, substantive comments.
-2. Weeks 1 to 4: 3 to 4 posts per week applying the specificity rules in section 10. At least one document post per week. No links. Daily commenting.
+1. Baseline: pull the last 15 posts; record out-of-network %, saves, substantive comments. Mark which were AI-cleaned.
+2. Weeks 1 to 4: 3 to 4 posts per week using the AI workflow in section 17. At least one document post per week. No links. Daily commenting.
 3. Log each post: type, format, hook type, length, out-of-network % at 48 hours, saves, substantive comments.
 4. Day 30: compare against baseline by post type. Double down on the top two types; drop the bottom one.
 
@@ -743,7 +847,7 @@ Expect lag. The ranker needs new interaction history before it changes how it ro
 
 ---
 
-## 26) Contested and Unverified Claims
+## 27) Contested and Unverified Claims
 
 | Claim you'll see | Status |
 |---|---|
@@ -770,7 +874,7 @@ Expect lag. The ranker needs new interaction history before it changes how it ro
 
 ---
 
-## 27) Watch List
+## 28) Watch List
 
 - Carousel display size shrinking
 - Slop warning rollout in creator analytics
@@ -848,4 +952,4 @@ Kanbox, TryOrdinal, Clicknara, TechCrunch (Dec 2025), River, Speedwork Social, A
 
 ---
 
-Last updated: September 21, 2026. Version 2026.5 (changes and general strategy edition).
+Last updated: September 21, 2026. Version 2026.5 (structure reorganized; engagement hierarchy expanded).
