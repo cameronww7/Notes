@@ -9,7 +9,7 @@
  ╚═╝  ╚═══╝ ╚═════╝    ╚═╝   ╚══════╝╚══════╝
 ```
 
-Long-form write-ups on security, AI, and career growth, published here so they're easy to link, fork, and reuse.
+Long-form write-ups on security, AI, and career growth, I put them here so they're easy to link, fork, and actually use.
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](LICENSE)
 [![Format: Markdown](https://img.shields.io/badge/format-markdown-blue.svg)](https://github.com/cameronww7/Notes)
@@ -17,7 +17,7 @@ Long-form write-ups on security, AI, and career growth, published here so they'r
 
 ## About
 
-This repo is a public collection of the notes and guides I write for my own reference and share with the community. Most of it comes out of day-to-day work running AppSec/Product Security teams, plus some general AI-usage and career material that doesn't fit anywhere else. Everything here is free to reuse under the license below: take what's useful, adapt it, pass it on.
+This started as my own notes, stuff I wrote down so I'd stop re-explaining the same thing over and over. It turned into a public pile of guides and write-ups, most of it pulled straight from running ProdSec and AppSec teams day to day, plus some AI-usage and career material that didn't fit anywhere else. Everything here is free to reuse under the license below, take what's useful, adapt it, pass it on.
 
 ## Repo Map
 
@@ -62,6 +62,7 @@ Notes/
 - [AppSec-ProdSec-DevSecOps Learning Path](Career/AppSec-ProdSec-DevSecOps%20Learning%20Path.md): a practical roadmap for breaking into AppSec/ProdSec/DevSecOps, from someone who hires for it.
 - [Product Security Competency Pathway](Career/Product%20Security%20Competency%20Pathway.md): what's expected at each career level, laid out dimension by dimension.
 - [Managing Up](Career/Managing%20Up.md): what managing up actually means and why visibility matters more than people think.
+- [Using AI Without Outsourcing Your Thinking](Career/Using%20AI%20Without%20Outsourcing%20Your%20Thinking.md): why leaning on AI while you're still learning skips the struggle that actually builds understanding, and how to use it without doing that to yourself.
 
 ### Misc
 - [Spotting AI-Generated Text](Misc/Spotting%20AI-Generated%20Text.md): patterns and tells for identifying AI-written content, kept current as models evolve.
@@ -69,4 +70,4 @@ Notes/
 
 ## License
 
-Everything in this repo is licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE). In short: you're free to share and adapt this material for any purpose, including commercially, as long as you give appropriate credit and license any derivatives under the same terms.
+Everything in here is licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE). Short version: share it, adapt it, even sell it, just give credit and license whatever you build off it under the same terms.
