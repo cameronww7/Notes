@@ -1,51 +1,68 @@
 # Managing Up: What It Actually Means (And Why Visibility Matters More Than You Think)
 
-Let's clear something up: "managing up" isn't what most people think it is. It's not about doing your boss's job or stepping into their shoes. But here's the thing: what most people *think* managing up means is actually one of the most important career strategies you can deploy.
-
-So let's break down both concepts, because you need to master them both to get promoted.
+Most people think managing up means anticipating your boss's every mood and never bringing them bad news. That's not it, and the real version of managing up is actually one of the most useful career moves you've got, so let's separate the two and talk about why you need both.
 
 ## What Managing Up Actually Is
 
-The real definition of managing up is simpler than you'd expect: it's about building a strong, productive working relationship with your manager so both of you can do your best work.
+Real managing up is just building a working relationship with your manager that makes you both better at your jobs, nothing more mystical than that.
 
-This means understanding how your manager prefers to communicate. Do they want quick Slack updates or detailed emails? Impromptu conversations or scheduled 1:1s? Figure that out and adapt.
+### Learn Their Operating Manual
 
-Anticipate their questions. Have answers ready before they ask. Flag potential problems before they become your manager's problems. Bring solutions, not just complaints. Make their job easier through better collaboration and proactive communication.
+Figure out how they want to hear from you, quick Slack pings or a real email, a hallway conversation or a scheduled 1:1, and give them that instead of whatever's easiest for you.
 
-Think of it as a partnership. Your manager has limited time and attention. They're juggling multiple direct reports, their own deliverables, and shielding your team from organizational chaos. When you manage up effectively, you reduce their cognitive load and build the trust that makes them your advocate.
+Some managers have already written this down somewhere, a quick doc on how they like to work and what sets them off. If yours hasn't, just ask. Four questions cover most of it: how do you want bad news, fast and raw or with a plan already attached, how do you want routine updates, written or verbal, how much lead time do you want on something big like a vacation or a resignation, and what's the one thing people do that annoys you most. Twenty minutes of asking beats a year of guessing wrong.
 
-**But here's what managing up won't do by itself: get you promoted.**
+### No Surprises
+
+Have answers ready before they ask the question. Flag the problem while it's still small and still yours to fix, not after it's already theirs.
+
+This is the one rule in this whole doc that matters more than any other: never let your manager hear about a problem from someone else first, not from their boss, not from another team, not in a meeting where they have to react in real time with zero context. If the deploy breaks prod, the message isn't "fyi prod's down," it's "prod's down since 2:04, rollback's running, root cause looks like this morning's config change, writeup by end of day." Same bad news, completely different trust outcome.
+
+Bring a solution attached to every complaint, and your manager starts trusting your judgment instead of just your effort.
+
+Your manager is juggling a pile of reports, their own deliverables, and shielding your team from whatever chaos is happening two levels up, so when you manage up well you're taking weight off them, and that's what earns you an advocate when your name comes up in a promotion conversation.
+
+That's the floor. It gets you a good relationship and a manager who trusts you. It does not get you promoted by itself.
 
 ## The Missing Piece: Being Visible
 
-Great work in a vacuum doesn't get you promoted. Neither does being the perfect team player who anticipates their manager's every need. You know what does? Being impossible to ignore.
+Great work sitting in a vacuum doesn't move you up a level, and neither does being the ideal direct report who anticipates every need. What moves you up is being impossible to overlook when the promotion conversation happens and you're not in the room.
 
-Promotions don't happen just because you're doing great work at your current level. They happen because you've demonstrated you're already operating at the next level, and the right people have seen it.
+Promotions go to people who've already been operating at the next level long enough that the right people noticed, so you need to get deliberate about a few things:
 
-This is where you need to get strategic about your career. Here's what that looks like:
+Take on work that's technically above your level. Run the initiative that would normally land on your manager's desk, build the executive deck, stand in for your boss in the meeting that actually matters.
 
-**Take on work above your pay grade.** Don't just contribute to projects. Lead initiatives that would typically land on your manager's plate. Run point on strategic work. Build executive presentations. Stand in for your boss in critical meetings.
+Get in front of people who aren't your manager. Your manager's opinion matters but they're one vote among several, so build relationships across the org and let senior leadership see what you can do directly instead of secondhand through a performance review.
 
-**Make yourself visible to decision-makers.** Your manager matters, but they're not the only one. Get in rooms where decisions are made. Build relationships across the organization. Let senior leadership see your capabilities firsthand.
+Claim ownership before someone hands it to you. Tell your manager you're taking the project instead of waiting to be asked, and volunteer for the ugly, high-visibility work everyone else is avoiding.
 
-**Claim ownership proactively.** Don't wait to be asked. Tell your manager you're taking on a project in their stead. Volunteer for the difficult, high-visibility work that others avoid. Show initiative before someone has to delegate to you.
+Track your wins and say them out loud. Decision makers can't credit work they don't know happened, and that's not bragging, that's just keeping the record straight.
 
-**Communicate your impact.** Keep track of your wins and make sure they're visible. This isn't bragging. It's making sure decision-makers understand the value you're creating.
+Keep a running doc for this, five minutes every Friday, what you did and what changed because of it. Your brain remembers the stressful week and forgets the routine wins, so if you're not writing it down the week it happens, you won't have it when the promotion conversation shows up six months later and someone asks you to make the case.
+
+### Use Your 1:1s and Skip-Levels on Purpose
+
+Bring your own agenda to every 1:1. Walk in and wait for your manager to ask what you've been up to, and you've just handed them control of the one recurring block of time that's supposed to be yours. Lead with your blockers and your wins, then let them add whatever they need to add.
+
+Skip-levels work the same way, just rarer, quarterly is usually enough to build a real pattern without it looking like you're angling for something. Use that time to show your work directly to the person one level up instead of letting it reach them secondhand through your manager's summary, and loop your manager in afterward on what you covered so you're not blindsiding them by going around them. That last part matters, a skip-level only builds your case if your own manager still trusts you going into it.
 
 ## How These Work Together
 
-Here's the reality: you need both.
+Managing up builds the floor, it gets you a manager who trusts your judgment and will vouch for you in the room when it counts.
 
-Managing up (the real kind) builds the foundation. It creates trust with your manager and ensures you're aligned on priorities. When promotion discussions happen, your manager becomes your advocate, but only if you've built that relationship.
+Visibility and operating a level up is what actually earns the promotion, it's the proof that you can handle the bigger job before anyone hands you the title.
 
-Being visible and operating at the next level is what actually gets you the promotion. It's proving you can handle bigger responsibilities. It's being known to the people who make decisions. It's demonstrating leadership before you have the title.
+Do the first without the second and you're a great employee stuck at your current level. Do the second without the first and you're the person everyone resents for self-promoting with no relationship behind it. Do both and you're the one who gets the offer.
 
-The combination is powerful. Manage up to build your manager's support, then step up strategically to show everyone else you're ready.
+## Where People Get This Wrong
 
-## What This Means For You
+| Looks like managing up | Actually is |
+|---|---|
+| Agreeing with everything in the room, then complaining about it after | Pushing back in the room, while it still matters |
+| Sitting on a problem until it's unfixable so you don't look bad | Flagging it the day you spot it, with a plan already attached |
+| Only ever talking to your manager | Building a relationship with your skip-level before you need one |
+| Waiting to be asked what you're working on | Bringing your own agenda and your wins to every 1:1 |
 
-Don't confuse doing great work with career advancement. And don't assume managing your manager's expectations alone will get you promoted.
+Every item on the left feels safer in the moment. Every one of them costs you trust, visibility, or both, and you usually don't find out which until review season.
 
-You need to master the relationship (true managing up) while simultaneously building your visibility and demonstrating next-level capability. One makes you a great employee. The other makes you promotable.
-
-Most people only do one or the other. The people who get promoted do both.
+Most people only manage one side of this equation. Do both, and the gap between you and everyone else gets wide fast, mostly because you stopped waiting for someone to notice you in the dark.
