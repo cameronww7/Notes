@@ -62,6 +62,8 @@ Learning security is about building mental models, not memorizing facts. The goa
 
 - Active Learning: 5 Reasons You're Doing Active Learning WRONG: https://www.youtube.com/watch?v=0A5Ji-QdFvg
 
+Before going further, read [Using AI Without Outsourcing Your Thinking](Using%20AI%20Without%20Outsourcing%20Your%20Thinking.md). It's the mindset that makes everything below actually stick, instead of just becoming another chat log you forget by next week.
+
 Here's the list with names and context added:
 
 ## People to Follow on LinkedIn to Stay Up To Date
