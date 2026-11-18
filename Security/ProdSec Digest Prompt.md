@@ -53,6 +53,15 @@ Sources:
 43. watchTowr Labs: https://labs.watchtowr.com/
 44. Doyensec: https://blog.doyensec.com/
 45. NCC Group: https://www.nccgroup.com/research-blog/
+46. Phrack: https://phrack.org/issues/73/introduction_md (index https://phrack.org/)
+47. Phoenix Security: https://phoenix.security/cyber-risk-club-resources/blogs/
+48. Anthropic Frontier Red Team: https://red.anthropic.com
+49. Anthropic Engineering: https://www.anthropic.com/engineering
+50. OpenAI Security: https://openai.com/news/security/
+51. Cursor: https://cursor.com/blog (filter for security)
+52. Google Security Blog: https://security.googleblog.com/
+53. Google DeepMind: https://deepmind.google/blog/ (filter for security)
+54. GitHub Blog Security: https://github.blog/security/
 
 STEP 2: FILTER
 Keep posts about: AppSec, software supply chain attacks, malicious packages, CI/CD and pipeline security, GitHub Actions, secrets and non-human identity, cloud security research, vulnerability research and CVEs, AI/agentic security, AI-assisted code review and pentesting, and substantive product capability launches with technical detail.
